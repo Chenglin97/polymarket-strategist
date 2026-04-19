@@ -84,4 +84,9 @@ if (ROOT / '.git').exists():
         subprocess.run(['git', 'commit', '-m', f'polymarket strategist cycle {stamp}'], cwd=str(ROOT), check=False)
         subprocess.run(['git', 'push'], cwd=str(ROOT), check=False)
 
+# best-effort Telegram report for the owner
+notify = ROOT / 'notify_telegram.py'
+if notify.exists():
+    subprocess.run(['python3', str(notify)], cwd=str(ROOT), check=False)
+
 print(latest.read_text())

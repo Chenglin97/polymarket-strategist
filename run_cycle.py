@@ -76,10 +76,12 @@ archive.mkdir(exist_ok=True)
 stamp = datetime.now().strftime('%Y-%m-%d-%H%M%S')
 (archive / f'{stamp}.md').write_text(latest.read_text())
 
-# auto-commit if there are changes
-subprocess.run(['git', 'add', '.'], cwd=str(ROOT), check=False)
-status = subprocess.run(['git', 'status', '--porcelain'], cwd=str(ROOT), capture_output=True, text=True)
-if status.stdout.strip():
-    subprocess.run(['git', 'commit', '-m', f'polymarket strategist cycle {stamp}'], cwd=str(ROOT), check=False)
+# auto-commit and push if there are changes
+if (ROOT / '.git').exists():
+    subprocess.run(['git', 'add', '.'], cwd=str(ROOT), check=False)
+    status = subprocess.run(['git', 'status', '--porcelain'], cwd=str(ROOT), capture_output=True, text=True)
+    if status.stdout.strip():
+        subprocess.run(['git', 'commit', '-m', f'polymarket strategist cycle {stamp}'], cwd=str(ROOT), check=False)
+        subprocess.run(['git', 'push'], cwd=str(ROOT), check=False)
 
 print(latest.read_text())

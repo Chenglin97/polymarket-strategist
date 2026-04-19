@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# generated local mirrors; canonical copies live in data/ and reports/
+picks.json
+expected_return_chart.png
+expected_return_history.json
+expected_return_summary.json
+reports/cron.log

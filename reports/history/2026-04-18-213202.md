@@ -1,0 +1,74 @@
+# polymarket strategist
+
+timestamp: 2026-04-19T04:32:02.364438+00:00
+
+## scan stdout
+```
+Fetching markets...
+Analyzing 2000 markets...
+
+=== Summary ===
+New picks this run: 0
+Total picks: 4 (3 pending)
+Accuracy: 1/1 = 100.0%
+Resolved this run: 0
+
+Top pending picks by expected profit:
+  YES ev:0.15 | Gemini 3.5 released by May 31?
+  NO ev:-0.04 | Anthropic market cap between $400B-$600B at market close
+  NO ev:-0.10 | Will ByteDance have the second-best Coding AI model at end of Apr
+```
+
+## report stdout
+```
+{
+  "timestamp": "2026-04-19T04:32:01.502386+00:00",
+  "total_picks": 4,
+  "pending_count": 3,
+  "resolved_count": 1,
+  "win_rate": 1.0,
+  "pending_expected_profit_total": 0.0145,
+  "pending_expected_profit_positive_only": 0.1545,
+  "realized_profit_total": 0.2,
+  "valid_strategy_pending_count": 1,
+  "invalid_strategy_pending_count": 2,
+  "top_pending_by_ev": [
+    {
+      "question": "Gemini 3.5 released by May 31?",
+      "pick": "yes",
+      "market_price_paid": 0.0655,
+      "belief": 0.22,
+      "expected_profit": 0.1545,
+      "expected_roi": 2.358779
+    },
+    {
+      "question": "Anthropic market cap between $400B-$600B at market close",
+      "pick": "no",
+      "market_price_paid": 0.99,
+      "belief": 0.95,
+      "expected_profit": -0.04,
+      "expected_roi": -0.040404
+    },
+    {
+      "question": "Will ByteDance have the second-best Coding AI model at end of April?",
+      "pick": "no",
+      "market_price_paid": 1.0,
+      "belief": 0.9,
+      "expected_profit": -0.1,
+      "expected_roi": -0.1
+    }
+  ]
+}
+/home/chenglin/projects/polymarket-strategist/expected_return_chart.png
+```
+
+## summary
+- total picks: 4
+- pending: 3
+- resolved: 1
+- win rate: 1.0
+- pending EV total: 0.0145
+- positive-only pending EV: 0.1545
+- realized profit total: 0.2
+- valid pending picks: 1
+- invalid legacy picks: 2

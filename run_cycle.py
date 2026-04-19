@@ -11,22 +11,11 @@ REPORTS = ROOT / "reports"
 DATA.mkdir(exist_ok=True)
 REPORTS.mkdir(exist_ok=True)
 
-# sync source strategy scripts from workspace version for now
-WORKSPACE_PRED = Path('/home/chenglin/.openclaw/workspace/prediction')
-for name in ['scan_and_pick.py', 'tracker.py', 'report_expected_return.py']:
-    src = WORKSPACE_PRED / name
-    dst = ROOT / name
-    if src.exists():
-        dst.write_text(src.read_text())
-
-# seed picks file if missing
-src_picks = WORKSPACE_PRED / 'picks.json'
 dst_picks = DATA / 'picks.json'
-if not dst_picks.exists() and src_picks.exists():
-    dst_picks.write_text(src_picks.read_text())
+if not dst_picks.exists():
+    dst_picks.write_text(json.dumps({"picks": [], "stats": {"total": 0, "correct": 0, "pending": 0}}, indent=2))
 
-# patch script-local expected files by running from repo root with cwd and env symlink strategy
-# easiest is copy current data file into local expected location before run and back after
+# repo-local run state, no more syncing from workspace
 local_picks = ROOT / 'picks.json'
 local_picks.write_text(dst_picks.read_text())
 
@@ -67,7 +56,8 @@ latest.write_text(
     f"- positive-only pending EV: {summary.get('pending_expected_profit_positive_only')}\n"
     f"- realized profit total: {summary.get('realized_profit_total')}\n"
     f"- valid pending picks: {summary.get('valid_strategy_pending_count')}\n"
-    f"- invalid legacy picks: {summary.get('invalid_strategy_pending_count')}\n"
+    f"- invalid live picks: {summary.get('invalid_strategy_pending_count')}\n"
+    f"- archived legacy picks: {summary.get('legacy_invalid_count')}\n"
 )
 
 # write run-specific archive

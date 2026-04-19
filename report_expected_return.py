@@ -61,6 +61,7 @@ def summarize(data):
     picks = data.get("picks", [])
     pending = [p for p in picks if p["status"] == "pending"]
     resolved = [p for p in picks if p["status"] in ("correct", "wrong")]
+    legacy_invalid = [p for p in picks if p.get("status") == "legacy_invalid"]
 
     pending_ev = sum(expected_profit(p) for p in pending)
     pending_ev_positive = sum(max(expected_profit(p), 0) for p in pending)
@@ -80,6 +81,7 @@ def summarize(data):
         "realized_profit_total": round(realized_pnl, 6),
         "valid_strategy_pending_count": len(valid_strategy_pending),
         "invalid_strategy_pending_count": len(invalid_strategy_pending),
+        "legacy_invalid_count": len(legacy_invalid),
         "top_pending_by_ev": [
             {
                 "question": p["question"],
@@ -106,6 +108,7 @@ def append_history(summary):
         "pending_count": summary["pending_count"],
         "valid_strategy_pending_count": summary["valid_strategy_pending_count"],
         "invalid_strategy_pending_count": summary["invalid_strategy_pending_count"],
+        "legacy_invalid_count": summary.get("legacy_invalid_count", 0),
         "win_rate": summary["win_rate"],
     }
 

@@ -1,12 +1,13 @@
 [
   {
     "date": "2026-04-19",
-    "pending_expected_profit_total": 0.0145,
+    "pending_expected_profit_total": 0.1545,
     "pending_expected_profit_positive_only": 0.1545,
     "realized_profit_total": 0.2,
-    "pending_count": 3,
+    "pending_count": 1,
     "valid_strategy_pending_count": 1,
-    "invalid_strategy_pending_count": 2,
+    "invalid_strategy_pending_count": 0,
+    "legacy_invalid_count": 2,
     "win_rate": 1.0
   }
 ]

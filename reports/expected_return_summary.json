@@ -1,14 +1,15 @@
 {
-  "timestamp": "2026-04-19T07:00:07.661792+00:00",
+  "timestamp": "2026-04-19T07:29:11.955113+00:00",
   "total_picks": 4,
-  "pending_count": 3,
+  "pending_count": 1,
   "resolved_count": 1,
   "win_rate": 1.0,
-  "pending_expected_profit_total": 0.0145,
+  "pending_expected_profit_total": 0.1545,
   "pending_expected_profit_positive_only": 0.1545,
   "realized_profit_total": 0.2,
   "valid_strategy_pending_count": 1,
-  "invalid_strategy_pending_count": 2,
+  "invalid_strategy_pending_count": 0,
+  "legacy_invalid_count": 2,
   "top_pending_by_ev": [
     {
       "question": "Gemini 3.5 released by May 31?",
@@ -17,22 +18,6 @@
       "belief": 0.22,
       "expected_profit": 0.1545,
       "expected_roi": 2.358779
-    },
-    {
-      "question": "Anthropic market cap between $400B-$600B at market close",
-      "pick": "no",
-      "market_price_paid": 0.99,
-      "belief": 0.95,
-      "expected_profit": -0.04,
-      "expected_roi": -0.040404
-    },
-    {
-      "question": "Will ByteDance have the second-best Coding AI model at end of April?",
-      "pick": "no",
-      "market_price_paid": 1.0,
-      "belief": 0.9,
-      "expected_profit": -0.1,
-      "expected_roi": -0.1
     }
   ]
 }

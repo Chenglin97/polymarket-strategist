@@ -58,6 +58,9 @@ latest.write_text(
     f"- valid pending picks: {summary.get('valid_strategy_pending_count')}\n"
     f"- invalid live picks: {summary.get('invalid_strategy_pending_count')}\n"
     f"- archived legacy picks: {summary.get('legacy_invalid_count')}\n"
+    f"- simulated realized bankroll: {summary.get('sim_realized_bankroll')}\n"
+    f"- simulated pending EV dollars: {summary.get('sim_pending_ev_dollars')}\n"
+    f"- simulated bankroll plus pending EV: {summary.get('sim_bankroll_plus_pending_ev')}\n"
 )
 
 # write run-specific archive

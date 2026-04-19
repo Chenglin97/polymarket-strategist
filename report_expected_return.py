@@ -23,6 +23,8 @@ PICKS_FILE = os.path.join(BASE, "picks.json")
 HISTORY_FILE = os.path.join(BASE, "expected_return_history.json")
 SUMMARY_FILE = os.path.join(BASE, "expected_return_summary.json")
 CHART_FILE = os.path.join(BASE, "expected_return_chart.png")
+STARTING_BANKROLL = 1000.0
+STAKE_FRACTION = 0.05
 
 
 def load_json(path, default):
@@ -57,6 +59,41 @@ def realized_profit(pick):
     return 0.0
 
 
+def simulate_bankroll(picks):
+    bankroll = STARTING_BANKROLL
+    pending_ev_dollars = 0.0
+    resolved_count = 0
+
+    ordered = sorted(
+        [p for p in picks if p.get("status") in ("pending", "correct", "wrong")],
+        key=lambda p: p.get("picked_at", "")
+    )
+
+    for pick in ordered:
+        side_price = selected_side_price(pick)
+        if side_price <= 0:
+            continue
+        stake = bankroll * STAKE_FRACTION
+        shares = stake / side_price
+        if pick["status"] == "correct":
+            bankroll += shares * (1 - side_price)
+            resolved_count += 1
+        elif pick["status"] == "wrong":
+            bankroll -= stake
+            resolved_count += 1
+        elif pick["status"] == "pending":
+            pending_ev_dollars += shares * expected_profit(pick)
+
+    return {
+        "starting_bankroll": round(STARTING_BANKROLL, 2),
+        "stake_fraction": STAKE_FRACTION,
+        "realized_bankroll": round(bankroll, 2),
+        "pending_ev_dollars": round(pending_ev_dollars, 2),
+        "bankroll_plus_pending_ev": round(bankroll + pending_ev_dollars, 2),
+        "resolved_positions_count": resolved_count,
+    }
+
+
 def summarize(data):
     picks = data.get("picks", [])
     pending = [p for p in picks if p["status"] == "pending"]
@@ -70,6 +107,8 @@ def summarize(data):
     valid_strategy_pending = [p for p in pending if expected_profit(p) > 0]
     invalid_strategy_pending = [p for p in pending if expected_profit(p) <= 0]
 
+    sim = simulate_bankroll(picks)
+
     summary = {
         "timestamp": datetime.now(timezone.utc).isoformat(),
         "total_picks": len(picks),
@@ -82,6 +121,12 @@ def summarize(data):
         "valid_strategy_pending_count": len(valid_strategy_pending),
         "invalid_strategy_pending_count": len(invalid_strategy_pending),
         "legacy_invalid_count": len(legacy_invalid),
+        "sim_starting_bankroll": sim["starting_bankroll"],
+        "sim_stake_fraction": sim["stake_fraction"],
+        "sim_realized_bankroll": sim["realized_bankroll"],
+        "sim_pending_ev_dollars": sim["pending_ev_dollars"],
+        "sim_bankroll_plus_pending_ev": sim["bankroll_plus_pending_ev"],
+        "sim_resolved_positions_count": sim["resolved_positions_count"],
         "top_pending_by_ev": [
             {
                 "question": p["question"],
@@ -109,6 +154,9 @@ def append_history(summary):
         "valid_strategy_pending_count": summary["valid_strategy_pending_count"],
         "invalid_strategy_pending_count": summary["invalid_strategy_pending_count"],
         "legacy_invalid_count": summary.get("legacy_invalid_count", 0),
+        "sim_realized_bankroll": summary.get("sim_realized_bankroll"),
+        "sim_pending_ev_dollars": summary.get("sim_pending_ev_dollars"),
+        "sim_bankroll_plus_pending_ev": summary.get("sim_bankroll_plus_pending_ev"),
         "win_rate": summary["win_rate"],
     }
 

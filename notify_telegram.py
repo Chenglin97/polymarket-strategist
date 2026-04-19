@@ -29,6 +29,9 @@ def stable_view(summary):
         'pending_expected_profit_total': summary.get('pending_expected_profit_total'),
         'pending_expected_profit_positive_only': summary.get('pending_expected_profit_positive_only'),
         'realized_profit_total': summary.get('realized_profit_total'),
+        'sim_realized_bankroll': summary.get('sim_realized_bankroll'),
+        'sim_pending_ev_dollars': summary.get('sim_pending_ev_dollars'),
+        'sim_bankroll_plus_pending_ev': summary.get('sim_bankroll_plus_pending_ev'),
         'pending_count': summary.get('pending_count'),
         'valid_strategy_pending_count': summary.get('valid_strategy_pending_count'),
         'invalid_strategy_pending_count': summary.get('invalid_strategy_pending_count'),
@@ -46,7 +49,7 @@ def build_message(summary, previous):
             'no material change this cycle',
             f"live strategy picks: {summary.get('pending_count')} (legacy archived: {summary.get('legacy_invalid_count', 0)})",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
-            f"realized profit: {summary.get('realized_profit_total')}",
+            f"sim bankroll: {summary.get('sim_realized_bankroll')} + EV {summary.get('sim_pending_ev_dollars')} = {summary.get('sim_bankroll_plus_pending_ev')}",
         ]
     else:
         lines = [
@@ -54,6 +57,7 @@ def build_message(summary, previous):
             f"pending EV total: {summary.get('pending_expected_profit_total')}",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
             f"realized profit: {summary.get('realized_profit_total')}",
+            f"sim bankroll: {summary.get('sim_realized_bankroll')} + EV {summary.get('sim_pending_ev_dollars')} = {summary.get('sim_bankroll_plus_pending_ev')}",
             f"live strategy picks: {summary.get('pending_count')} (legacy archived: {summary.get('legacy_invalid_count', 0)})",
         ]
     if top:

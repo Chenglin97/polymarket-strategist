@@ -57,11 +57,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1975508",
+      "question": "Will DeepSeek have the second best AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.85,
+      "market_yes_price": 0.234,
+      "selected_side_price": 0.766,
+      "expected_profit": 0.08399999999999996,
+      "expected_roi": 0.10966057441253259,
+      "edge": 0.08399999999999996,
+      "reasoning": "Being definitively #1 in AI is hard to hold. DeepSeek is strong but not consistently #1.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-19T09:00:05.820426+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 1,
     "correct": 1,
-    "pending": 1
+    "pending": 2
   }
 }

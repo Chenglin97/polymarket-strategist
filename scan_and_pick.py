@@ -16,6 +16,11 @@ from tracker import load_picks, add_pick, save_picks, check_resolutions, fetch
 
 PICKS_FILE = os.path.join(os.path.dirname(__file__), "picks.json")
 
+MIN_EXPECTED_PROFIT = 0.02
+MIN_EXPECTED_ROI = 0.08
+MIN_VOLUME = 20
+MAX_NEW_PICKS_PER_RUN = 5
+
 def get_all_markets():
     all_markets = []
     for offset in range(0, 2000, 100):
@@ -42,19 +47,20 @@ def analyze_market(market):
     except:
         return None
 
-    # Skip near-certain markets (no profit opportunity)
-    if yes_p > 0.95 or yes_p < 0.05:
+    # Skip only truly near-certain markets
+    if yes_p > 0.98 or yes_p < 0.02:
         return None
 
-    # Skip markets with no volume (too illiquid)
+    # Looser volume floor for paper trading, we want faster learning
     vol = float(market.get("volume", 0))
-    if vol < 50:
+    if vol < MIN_VOLUME:
         return None
 
     # === TECH / AI MARKETS ===
     ai_keywords = ["openai", "gpt", "claude", "anthropic", "gemini", "deepseek",
                    "llama", "mistral", "ai model", "llm", "model release", "benchmark",
-                   "github", "open source", "hugging face", "bytedance"]
+                   "github", "open source", "hugging face", "bytedance", "xai", "grok",
+                   "meta", "google ai", "agi", "coding model"]
 
     if any(k in q for k in ai_keywords):
         # Gemini release markets - Google has been releasing fast
@@ -150,10 +156,10 @@ def run():
         expected_profit = my_confidence - side_price
         expected_roi = expected_profit / side_price if side_price > 0 else 0
 
-        # Hard EV filter: do not add negative-EV or tiny-edge picks.
-        if expected_profit <= 0.05:
+        # Paper-trading mode: take more shots so the model converges faster.
+        if expected_profit <= MIN_EXPECTED_PROFIT:
             continue
-        if expected_roi <= 0.20:
+        if expected_roi <= MIN_EXPECTED_ROI:
             continue
 
         q = market.get("question", "")
@@ -165,6 +171,8 @@ def run():
         if added:
             new_picks += 1
             print(f"  NEW PICK: {my_pick.upper()} | belief {my_confidence:.0%} vs paid {side_price:.0%} | EV {expected_profit:.2f} | {q[:65]}")
+            if new_picks >= MAX_NEW_PICKS_PER_RUN:
+                break
 
     save_picks(data)
 

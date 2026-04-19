@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-19T23:00:07.937117+00:00",
-  "total_picks": 5,
-  "pending_count": 2,
+  "timestamp": "2026-04-19T23:03:25.836755+00:00",
+  "total_picks": 8,
+  "pending_count": 5,
   "resolved_count": 1,
   "win_rate": 1.0,
-  "pending_expected_profit_total": 0.2385,
-  "pending_expected_profit_positive_only": 0.2385,
+  "pending_expected_profit_total": 0.4935,
+  "pending_expected_profit_positive_only": 0.4935,
   "realized_profit_total": 0.2,
-  "valid_strategy_pending_count": 2,
+  "valid_strategy_pending_count": 5,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 1012.5,
-  "sim_pending_ev_dollars": 124.96,
-  "sim_bankroll_plus_pending_ev": 1137.46,
+  "sim_pending_ev_dollars": 243.25,
+  "sim_bankroll_plus_pending_ev": 1255.75,
   "sim_resolved_positions_count": 1,
   "top_pending_by_ev": [
     {
@@ -26,12 +26,36 @@
       "expected_roi": 2.358779
     },
     {
+      "question": "MagicBlock FDV above $300M one day after launch?",
+      "pick": "yes",
+      "market_price_paid": 0.0975,
+      "belief": 0.1975,
+      "expected_profit": 0.1,
+      "expected_roi": 1.025641
+    },
+    {
+      "question": "Will OpenAI announce a computer (Laptop/Desktop) in 2026?",
+      "pick": "yes",
+      "market_price_paid": 0.08,
+      "belief": 0.18,
+      "expected_profit": 0.1,
+      "expected_roi": 1.25
+    },
+    {
       "question": "Will DeepSeek have the second best AI model at the end of May 2026?",
       "pick": "no",
       "market_price_paid": 0.766,
       "belief": 0.85,
       "expected_profit": 0.084,
       "expected_roi": 0.109661
+    },
+    {
+      "question": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "pick": "no",
+      "market_price_paid": 0.905,
+      "belief": 0.96,
+      "expected_profit": 0.055,
+      "expected_roi": 0.060773
     }
   ]
 }

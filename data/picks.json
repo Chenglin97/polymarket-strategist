@@ -74,11 +74,62 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1340071",
+      "question": "MagicBlock FDV above $300M one day after launch?",
+      "my_pick": "yes",
+      "my_confidence": 0.1975,
+      "market_yes_price": 0.0975,
+      "selected_side_price": 0.0975,
+      "expected_profit": 0.1,
+      "expected_roi": 1.0256410256410258,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 10% looks a bit too low.",
+      "category": "macro",
+      "picked_at": "2026-04-19T23:03:24.503683+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1295985",
+      "question": "Will OpenAI announce a computer (Laptop/Desktop) in 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.18,
+      "market_yes_price": 0.08,
+      "selected_side_price": 0.08,
+      "expected_profit": 0.09999999999999999,
+      "expected_roi": 1.2499999999999998,
+      "edge": 0.09999999999999999,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 8% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-19T23:03:24.503793+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "701491",
+      "question": "Will Bitcoin reach $150,000 by December 31, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.96,
+      "market_yes_price": 0.095,
+      "selected_side_price": 0.905,
+      "expected_profit": 0.05499999999999994,
+      "expected_roi": 0.060773480662983353,
+      "edge": 0.05499999999999994,
+      "reasoning": "BTC at ~$74,674. Reaching $150K in near term is highly unlikely.",
+      "category": "crypto",
+      "picked_at": "2026-04-19T23:03:24.503829+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 1,
     "correct": 1,
-    "pending": 2
+    "pending": 5
   }
 }

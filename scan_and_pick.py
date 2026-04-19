@@ -16,10 +16,10 @@ from tracker import load_picks, add_pick, save_picks, check_resolutions, fetch
 
 PICKS_FILE = os.path.join(os.path.dirname(__file__), "picks.json")
 
-MIN_EXPECTED_PROFIT = 0.02
-MIN_EXPECTED_ROI = 0.08
+MIN_EXPECTED_PROFIT = 0.015
+MIN_EXPECTED_ROI = 0.05
 MIN_VOLUME = 20
-MAX_NEW_PICKS_PER_RUN = 5
+MAX_NEW_PICKS_PER_RUN = 8
 
 def get_all_markets():
     all_markets = []
@@ -63,8 +63,23 @@ def analyze_market(market):
                    "meta", "google ai", "agi", "coding model"]
 
     if any(k in q for k in ai_keywords):
+        leadership_terms = ["#1", "number one", "best", "top", "second best", "2nd best", "sota", "state of the art"]
+        release_terms = ["release", "launch", "ship", "announce", "roll out"]
+
+        # Generic AI leadership claims: usually better as NO, there are too many strong competitors.
+        if any(term in q for term in leadership_terms) and 0.12 < yes_p < 0.88:
+            no_conf = min(max(0.70 + yes_p * 0.20, 0.72), 0.88)
+            return ("no", no_conf,
+                    f"Leadership claims in AI are fragile and crowded. Market YES at {yes_p:.0%} still looks too optimistic versus how quickly rankings shift.")
+
+        # Generic release/launch claims: undervalued launches can be worth small YES bets.
+        if any(term in q for term in release_terms) and yes_p < 0.22:
+            yes_conf = min(max(yes_p + 0.10, yes_p * 1.8), 0.42)
+            return ("yes", yes_conf,
+                    f"Launch markets are often underpriced when frontier labs are shipping fast. Market YES at {yes_p:.0%} looks a bit too low.")
+
         # Gemini release markets - Google has been releasing fast
-        if "gemini" in q and "release" in q or "gemini" in q and "launch" in q:
+        if ("gemini" in q and "release" in q) or ("gemini" in q and "launch" in q):
             if yes_p < 0.15:
                 return ("yes", min(yes_p * 2.5, 0.40),
                         f"Google's Gemini release velocity is high. Market at {yes_p:.0%} seems low given recent acceleration.")
@@ -139,10 +154,13 @@ def run():
     markets = get_all_markets()
     print(f"Analyzing {len(markets)} markets...")
 
-    new_picks = 0
+    candidates = []
+    existing_ids = {p["market_id"] for p in data["picks"]}
     for market in markets:
         result = analyze_market(market)
         if result is None:
+            continue
+        if market.get("id") in existing_ids:
             continue
 
         my_pick, my_confidence, reasoning = result
@@ -156,23 +174,47 @@ def run():
         expected_profit = my_confidence - side_price
         expected_roi = expected_profit / side_price if side_price > 0 else 0
 
-        # Paper-trading mode: take more shots so the model converges faster.
         if expected_profit <= MIN_EXPECTED_PROFIT:
             continue
         if expected_roi <= MIN_EXPECTED_ROI:
             continue
 
         q = market.get("question", "")
-        category = "tech/ai" if any(k in q.lower() for k in ["ai","gpt","gemini","deepseek","anthropic","llm"]) else \
+        category = "tech/ai" if any(k in q.lower() for k in ["ai","gpt","gemini","deepseek","anthropic","llm","model","openai","claude"]) else \
                    "crypto" if any(k in q.lower() for k in ["bitcoin","btc","ethereum","eth","crypto"]) else \
                    "macro"
 
-        added = add_pick(data, market["id"], q, my_pick, my_confidence, yes_p, reasoning, category)
+        candidates.append({
+            "market": market,
+            "question": q,
+            "my_pick": my_pick,
+            "my_confidence": my_confidence,
+            "yes_p": yes_p,
+            "reasoning": reasoning,
+            "category": category,
+            "expected_profit": expected_profit,
+            "expected_roi": expected_roi,
+            "sort_key": (expected_profit, expected_roi)
+        })
+
+    candidates.sort(key=lambda c: c["sort_key"], reverse=True)
+
+    new_picks = 0
+    for c in candidates[:MAX_NEW_PICKS_PER_RUN]:
+        added = add_pick(
+            data,
+            c["market"]["id"],
+            c["question"],
+            c["my_pick"],
+            c["my_confidence"],
+            c["yes_p"],
+            c["reasoning"],
+            c["category"],
+        )
         if added:
             new_picks += 1
-            print(f"  NEW PICK: {my_pick.upper()} | belief {my_confidence:.0%} vs paid {side_price:.0%} | EV {expected_profit:.2f} | {q[:65]}")
-            if new_picks >= MAX_NEW_PICKS_PER_RUN:
-                break
+            side_price = c["yes_p"] if c["my_pick"] == "yes" else 1 - c["yes_p"]
+            print(f"  NEW PICK: {c['my_pick'].upper()} | belief {c['my_confidence']:.0%} vs paid {side_price:.0%} | EV {c['expected_profit']:.2f} | {c['question'][:65]}")
 
     save_picks(data)
 

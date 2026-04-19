@@ -1,0 +1,65 @@
+{
+  "picks": [
+    {
+      "market_id": "1996715",
+      "question": "Will the highest temperature in Busan be 22C on April 18?",
+      "my_pick": "no",
+      "my_confidence": 0.75,
+      "market_yes_price": 0.2,
+      "edge": 0.55,
+      "reasoning": "Weather in Busan mid-April averages 15-18C. 22C is high for this time of year. Market at 20% yes seems too high - I'd say 25% chance of hitting exactly 22C.",
+      "category": "weather",
+      "picked_at": "2026-04-16T08:52:22.019768+00:00",
+      "status": "correct",
+      "resolved_at": "2026-04-18T16:00:59.500110+00:00",
+      "final_yes_price": 0.0
+    },
+    {
+      "market_id": "anthropic_mktcap",
+      "question": "Anthropic market cap between $400B-$600B at market close",
+      "my_pick": "no",
+      "my_confidence": 0.95,
+      "market_yes_price": 0.01,
+      "edge": 0.94,
+      "reasoning": "Anthropic was valued at $61.5B in March 2025. Getting to $400B-$600B by any near-term date is extremely unlikely. Market at 1% is essentially correct, slight edge to no.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-16T08:52:22.204245+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "bytedance_coding_2nd",
+      "question": "Will ByteDance have the second-best Coding AI model at end of April?",
+      "my_pick": "no",
+      "my_confidence": 0.9,
+      "market_yes_price": 0.0,
+      "edge": 0.9,
+      "reasoning": "DeepSeek is competitive but 'second best coding model' is a very specific claim. Claude and GPT-4o/5 dominate coding benchmarks. At 0% this is already priced correctly.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-16T08:52:22.204348+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1360928",
+      "question": "Gemini 3.5 released by May 31?",
+      "my_pick": "yes",
+      "my_confidence": 0.22,
+      "market_yes_price": 0.0655,
+      "edge": 0.1545,
+      "reasoning": "Google has been accelerating Gemini releases significantly. Gemini 2.0 Flash/Pro released in early 2026. A 3.5 release by May 31 is ambitious but Google's velocity suggests 20-25% is more accurate than market's 6.5%. Edge: market underpricing Google's release pace.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-16T08:52:44.342888+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "correct": 1,
+    "pending": 4
+  }
+}

@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parent
 LOCAL = ROOT / 'local'
 CHAT_FILE = LOCAL / 'telegram_chat_id.txt'
 SUMMARY_FILE = ROOT / 'reports' / 'expected_return_summary.json'
+RUN_SUMMARY_FILE = ROOT / 'reports' / 'run_summary.json'
 STATE_FILE = LOCAL / 'last_sent_summary.json'
 
 
@@ -22,6 +23,12 @@ def load_chat_id():
 
 def load_summary():
     return json.loads(SUMMARY_FILE.read_text())
+
+
+def load_run_summary():
+    if RUN_SUMMARY_FILE.exists():
+        return json.loads(RUN_SUMMARY_FILE.read_text())
+    return {}
 
 
 def stable_view(summary):
@@ -40,25 +47,27 @@ def stable_view(summary):
     }
 
 
-def build_message(summary, previous):
+def build_message(summary, run_summary, previous):
     top = summary.get('top_pending_by_ev', [])
     same = previous == stable_view(summary)
     if same:
         lines = [
             'polymarket strategist',
             'no material change this cycle',
-            f"live strategy picks: {summary.get('pending_count')} (legacy archived: {summary.get('legacy_invalid_count', 0)})",
+            f"new this run: {run_summary.get('new_picks_this_run')} | closed this run: {run_summary.get('resolved_this_run')}",
+            f"total: {run_summary.get('total_picks')} | pending: {run_summary.get('pending_count')} | closed: {run_summary.get('resolved_count')}",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
             f"sim bankroll: {summary.get('sim_realized_bankroll')} + EV {summary.get('sim_pending_ev_dollars')} = {summary.get('sim_bankroll_plus_pending_ev')}",
         ]
     else:
         lines = [
             'polymarket strategist',
+            f"new this run: {run_summary.get('new_picks_this_run')} | closed this run: {run_summary.get('resolved_this_run')}",
+            f"total: {run_summary.get('total_picks')} | pending: {run_summary.get('pending_count')} | closed: {run_summary.get('resolved_count')}",
             f"pending EV total: {summary.get('pending_expected_profit_total')}",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
             f"realized profit: {summary.get('realized_profit_total')}",
             f"sim bankroll: {summary.get('sim_realized_bankroll')} + EV {summary.get('sim_pending_ev_dollars')} = {summary.get('sim_bankroll_plus_pending_ev')}",
-            f"live strategy picks: {summary.get('pending_count')} (legacy archived: {summary.get('legacy_invalid_count', 0)})",
         ]
     if top:
         best = top[0]
@@ -80,9 +89,10 @@ if __name__ == '__main__':
     if not CHAT_FILE.exists() or not SUMMARY_FILE.exists():
         raise SystemExit(0)
     summary = load_summary()
+    run_summary = load_run_summary()
     previous = None
     if STATE_FILE.exists():
         previous = json.loads(STATE_FILE.read_text())
-    print(json.dumps(send(build_message(summary, previous))))
+    print(json.dumps(send(build_message(summary, run_summary, previous))))
     LOCAL.mkdir(exist_ok=True)
     STATE_FILE.write_text(json.dumps(stable_view(summary), indent=2))

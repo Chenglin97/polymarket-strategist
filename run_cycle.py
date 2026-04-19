@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import os
+import re
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -26,7 +27,7 @@ report = subprocess.run(['python3', str(ROOT / 'report_expected_return.py')], cw
 if local_picks.exists():
     dst_picks.write_text(local_picks.read_text())
 
-for name in ['expected_return_history.json', 'expected_return_summary.json', 'expected_return_chart.png']:
+for name in ['expected_return_history.json', 'expected_return_summary.json', 'expected_return_chart.png', 'run_summary.json']:
     src = ROOT / name
     if src.exists():
         target = REPORTS / name
@@ -40,6 +41,20 @@ summary_path = REPORTS / 'expected_return_summary.json'
 if summary_path.exists():
     summary = json.loads(summary_path.read_text())
 
+def extract_int(label, text):
+    m = re.search(rf'{re.escape(label)}:\s*(\d+)', text)
+    return int(m.group(1)) if m else None
+
+run_summary = {
+    'timestamp': datetime.now(timezone.utc).isoformat(),
+    'new_picks_this_run': extract_int('New picks this run', scan.stdout),
+    'resolved_this_run': extract_int('Resolved this run', scan.stdout),
+    'total_picks': summary.get('total_picks'),
+    'pending_count': summary.get('pending_count'),
+    'resolved_count': summary.get('resolved_count'),
+}
+(REPORTS / 'run_summary.json').write_text(json.dumps(run_summary, indent=2))
+
 latest = REPORTS / 'latest.md'
 now = datetime.now(timezone.utc).isoformat()
 latest.write_text(
@@ -48,6 +63,8 @@ latest.write_text(
     f"## scan stdout\n```\n{scan.stdout.strip()}\n```\n\n"
     f"## report stdout\n```\n{report.stdout.strip()}\n```\n\n"
     f"## summary\n"
+    f"- new picks this run: {run_summary.get('new_picks_this_run')}\n"
+    f"- resolved this run: {run_summary.get('resolved_this_run')}\n"
     f"- total picks: {summary.get('total_picks')}\n"
     f"- pending: {summary.get('pending_count')}\n"
     f"- resolved: {summary.get('resolved_count')}\n"

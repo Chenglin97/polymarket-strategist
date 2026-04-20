@@ -55,7 +55,7 @@ def build_message(summary, run_summary, previous):
             'polymarket strategist',
             'no material change this cycle',
             f"new this run: {run_summary.get('new_picks_this_run')} | closed this run: {run_summary.get('resolved_this_run')}",
-            f"total: {run_summary.get('total_picks')} | pending: {run_summary.get('pending_count')} | closed: {run_summary.get('resolved_count')}",
+            f"total logged: {run_summary.get('total_picks')} = pending {run_summary.get('pending_count')} + closed {run_summary.get('resolved_count')} + archived {summary.get('legacy_invalid_count', 0)}",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
             f"sim bankroll: {summary.get('sim_realized_bankroll')} + EV {summary.get('sim_pending_ev_dollars')} = {summary.get('sim_bankroll_plus_pending_ev')}",
         ]
@@ -63,7 +63,7 @@ def build_message(summary, run_summary, previous):
         lines = [
             'polymarket strategist',
             f"new this run: {run_summary.get('new_picks_this_run')} | closed this run: {run_summary.get('resolved_this_run')}",
-            f"total: {run_summary.get('total_picks')} | pending: {run_summary.get('pending_count')} | closed: {run_summary.get('resolved_count')}",
+            f"total logged: {run_summary.get('total_picks')} = pending {run_summary.get('pending_count')} + closed {run_summary.get('resolved_count')} + archived {summary.get('legacy_invalid_count', 0)}",
             f"pending EV total: {summary.get('pending_expected_profit_total')}",
             f"positive-only EV: {summary.get('pending_expected_profit_positive_only')}",
             f"realized profit: {summary.get('realized_profit_total')}",

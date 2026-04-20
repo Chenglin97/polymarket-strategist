@@ -176,11 +176,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1664342",
+      "question": "Will Anthropic have the #1 AI model at the end of April 2026 (Style Control On)?",
+      "my_pick": "no",
+      "my_confidence": 0.866,
+      "market_yes_price": 0.83,
+      "selected_side_price": 0.17000000000000004,
+      "expected_profit": 0.696,
+      "expected_roi": 4.094117647058822,
+      "edge": 0.696,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 83% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-20T21:00:07.120076+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 1,
     "correct": 1,
-    "pending": 8
+    "pending": 9
   }
 }

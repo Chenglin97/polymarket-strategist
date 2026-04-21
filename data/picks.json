@@ -346,11 +346,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1929692",
+      "question": "Will GPT-5.5 be released on April 24, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.1225,
+      "market_yes_price": 0.0225,
+      "selected_side_price": 0.0225,
+      "expected_profit": 0.1,
+      "expected_roi": 4.444444444444445,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-21T19:00:08.523444+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 1,
     "correct": 1,
-    "pending": 18
+    "pending": 19
   }
 }

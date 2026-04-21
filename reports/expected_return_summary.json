@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-21T17:00:09.579184+00:00",
-  "total_picks": 21,
-  "pending_count": 18,
+  "timestamp": "2026-04-21T19:00:09.822090+00:00",
+  "total_picks": 22,
+  "pending_count": 19,
   "resolved_count": 1,
   "win_rate": 1.0,
-  "pending_expected_profit_total": 2.7195,
-  "pending_expected_profit_positive_only": 2.7195,
+  "pending_expected_profit_total": 2.8195,
+  "pending_expected_profit_positive_only": 2.8195,
   "realized_profit_total": 0.2,
-  "valid_strategy_pending_count": 18,
+  "valid_strategy_pending_count": 19,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 1012.5,
-  "sim_pending_ev_dollars": 829.28,
-  "sim_bankroll_plus_pending_ev": 1841.78,
+  "sim_pending_ev_dollars": 1054.28,
+  "sim_bankroll_plus_pending_ev": 2066.78,
   "sim_resolved_positions_count": 1,
   "top_pending_by_ev": [
     {
@@ -90,12 +90,12 @@
       "expected_roi": 1.025641
     },
     {
-      "question": "Will OpenAI announce a computer (Laptop/Desktop) in 2026?",
+      "question": "Will GPT-5.5 be released on April 24, 2026?",
       "pick": "yes",
-      "market_price_paid": 0.08,
-      "belief": 0.18,
+      "market_price_paid": 0.0225,
+      "belief": 0.1225,
       "expected_profit": 0.1,
-      "expected_roi": 1.25
+      "expected_roi": 4.444444
     }
   ]
 }

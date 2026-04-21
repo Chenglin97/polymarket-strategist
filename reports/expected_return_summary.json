@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-21T07:00:09.056606+00:00",
-  "total_picks": 20,
-  "pending_count": 17,
+  "timestamp": "2026-04-21T09:00:11.203309+00:00",
+  "total_picks": 21,
+  "pending_count": 18,
   "resolved_count": 1,
   "win_rate": 1.0,
-  "pending_expected_profit_total": 2.2155,
-  "pending_expected_profit_positive_only": 2.2155,
+  "pending_expected_profit_total": 2.7195,
+  "pending_expected_profit_positive_only": 2.7195,
   "realized_profit_total": 0.2,
-  "valid_strategy_pending_count": 17,
+  "valid_strategy_pending_count": 18,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 1012.5,
-  "sim_pending_ev_dollars": 751.97,
-  "sim_bankroll_plus_pending_ev": 1764.47,
+  "sim_pending_ev_dollars": 829.28,
+  "sim_bankroll_plus_pending_ev": 1841.78,
   "sim_resolved_positions_count": 1,
   "top_pending_by_ev": [
     {
@@ -24,6 +24,14 @@
       "belief": 0.866,
       "expected_profit": 0.696,
       "expected_roi": 4.094118
+    },
+    {
+      "question": "Will Anthropic have the best AI model at the end of April 2026?",
+      "pick": "no",
+      "market_price_paid": 0.33,
+      "belief": 0.834,
+      "expected_profit": 0.504,
+      "expected_roi": 1.527273
     },
     {
       "question": "Will MetaMask launch a token by September 30, 2026?",
@@ -88,14 +96,6 @@
       "belief": 0.18,
       "expected_profit": 0.1,
       "expected_roi": 1.25
-    },
-    {
-      "question": "Will GPT-5.5 be released on April 21, 2026?",
-      "pick": "yes",
-      "market_price_paid": 0.0715,
-      "belief": 0.1715,
-      "expected_profit": 0.1,
-      "expected_roi": 1.398601
     }
   ]
 }

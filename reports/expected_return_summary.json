@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-20T23:00:07.393347+00:00",
-  "total_picks": 12,
-  "pending_count": 9,
+  "timestamp": "2026-04-21T01:00:08.552656+00:00",
+  "total_picks": 13,
+  "pending_count": 10,
   "resolved_count": 1,
   "win_rate": 1.0,
-  "pending_expected_profit_total": 1.5575,
-  "pending_expected_profit_positive_only": 1.5575,
+  "pending_expected_profit_total": 1.6575,
+  "pending_expected_profit_positive_only": 1.6575,
   "realized_profit_total": 0.2,
-  "valid_strategy_pending_count": 9,
+  "valid_strategy_pending_count": 10,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 1012.5,
-  "sim_pending_ev_dollars": 639.47,
-  "sim_bankroll_plus_pending_ev": 1651.97,
+  "sim_pending_ev_dollars": 710.28,
+  "sim_bankroll_plus_pending_ev": 1722.78,
   "sim_resolved_positions_count": 1,
   "top_pending_by_ev": [
     {
@@ -72,6 +72,14 @@
       "belief": 0.18,
       "expected_profit": 0.1,
       "expected_roi": 1.25
+    },
+    {
+      "question": "Will GPT-5.5 be released on April 21, 2026?",
+      "pick": "yes",
+      "market_price_paid": 0.0715,
+      "belief": 0.1715,
+      "expected_profit": 0.1,
+      "expected_roi": 1.398601
     },
     {
       "question": "Will DeepSeek have the second best AI model at the end of May 2026?",

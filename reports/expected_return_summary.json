@@ -1,22 +1,30 @@
 {
-  "timestamp": "2026-04-22T21:00:13.019694+00:00",
-  "total_picks": 32,
-  "pending_count": 27,
+  "timestamp": "2026-04-22T23:00:12.004559+00:00",
+  "total_picks": 33,
+  "pending_count": 28,
   "resolved_count": 3,
   "win_rate": 0.6666666666666666,
-  "pending_expected_profit_total": 4.964,
-  "pending_expected_profit_positive_only": 4.964,
+  "pending_expected_profit_total": 5.684,
+  "pending_expected_profit_positive_only": 5.684,
   "realized_profit_total": 0.8225,
-  "valid_strategy_pending_count": 27,
+  "valid_strategy_pending_count": 28,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 1070.95,
-  "sim_pending_ev_dollars": 1474.5,
-  "sim_bankroll_plus_pending_ev": 2545.45,
+  "sim_pending_ev_dollars": 1731.53,
+  "sim_bankroll_plus_pending_ev": 2802.48,
   "sim_resolved_positions_count": 3,
   "top_pending_by_ev": [
+    {
+      "question": "Will OpenAI have the best Math AI model at the end of April 2026?",
+      "pick": "no",
+      "market_price_paid": 0.15,
+      "belief": 0.87,
+      "expected_profit": 0.72,
+      "expected_roi": 4.8
+    },
     {
       "question": "Will Anthropic have the #1 AI model at the end of April 2026 (Style Control On)?",
       "pick": "no",
@@ -88,14 +96,6 @@
       "belief": 0.4,
       "expected_profit": 0.1205,
       "expected_roi": 0.431127
-    },
-    {
-      "question": "Will grok-4.20-beta1 be the top AI model on April 24, 2026 (Style Control On)?",
-      "pick": "no",
-      "market_price_paid": 0.665,
-      "belief": 0.767,
-      "expected_profit": 0.102,
-      "expected_roi": 0.153383
     }
   ]
 }

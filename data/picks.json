@@ -533,11 +533,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1820624",
+      "question": "Will OpenAI have the best Math AI model at the end of April 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.87,
+      "market_yes_price": 0.85,
+      "selected_side_price": 0.15000000000000002,
+      "expected_profit": 0.72,
+      "expected_roi": 4.799999999999999,
+      "edge": 0.72,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 85% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-22T23:00:10.686198+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 3,
     "correct": 2,
-    "pending": 27
+    "pending": 28
   }
 }

@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-22T13:00:10.193314+00:00",
-  "total_picks": 27,
-  "pending_count": 23,
+  "timestamp": "2026-04-22T15:00:11.329421+00:00",
+  "total_picks": 30,
+  "pending_count": 26,
   "resolved_count": 2,
   "win_rate": 0.5,
-  "pending_expected_profit_total": 4.6655,
-  "pending_expected_profit_positive_only": 4.6655,
+  "pending_expected_profit_total": 4.968,
+  "pending_expected_profit_positive_only": 4.968,
   "realized_profit_total": 0.1285,
-  "valid_strategy_pending_count": 23,
+  "valid_strategy_pending_count": 26,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 961.88,
-  "sim_pending_ev_dollars": 1397.6,
-  "sim_bankroll_plus_pending_ev": 2359.47,
+  "sim_pending_ev_dollars": 1433.53,
+  "sim_bankroll_plus_pending_ev": 2395.41,
   "sim_resolved_positions_count": 2,
   "top_pending_by_ev": [
     {
@@ -66,6 +66,14 @@
       "expected_roi": 0.8
     },
     {
+      "question": "Will claude-opus-4-7-thinking be the top AI model on April 24, 2026 (Style Control On)?",
+      "pick": "no",
+      "market_price_paid": 0.615,
+      "belief": 0.777,
+      "expected_profit": 0.162,
+      "expected_roi": 0.263415
+    },
+    {
       "question": "Gemini 3.5 released by May 31?",
       "pick": "yes",
       "market_price_paid": 0.0655,
@@ -74,28 +82,20 @@
       "expected_roi": 2.358779
     },
     {
+      "question": "Will the price of Bitcoin be above $80,000 on April 23?",
+      "pick": "yes",
+      "market_price_paid": 0.2795,
+      "belief": 0.4,
+      "expected_profit": 0.1205,
+      "expected_roi": 0.431127
+    },
+    {
       "question": "Will grok-4.20-beta1 be the top AI model on April 24, 2026 (Style Control On)?",
       "pick": "no",
       "market_price_paid": 0.665,
       "belief": 0.767,
       "expected_profit": 0.102,
       "expected_roi": 0.153383
-    },
-    {
-      "question": "Will gemini-3-pro be the top AI model on April 24, 2026 (Style Control On)?",
-      "pick": "no",
-      "market_price_paid": 0.665,
-      "belief": 0.767,
-      "expected_profit": 0.102,
-      "expected_roi": 0.153383
-    },
-    {
-      "question": "Will GPT-5.5 be released on April 22, 2026?",
-      "pick": "yes",
-      "market_price_paid": 0.0505,
-      "belief": 0.1505,
-      "expected_profit": 0.1,
-      "expected_roi": 1.980198
     }
   ]
 }

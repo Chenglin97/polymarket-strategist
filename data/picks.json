@@ -448,11 +448,62 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2036741",
+      "question": "Will claude-opus-4-7-thinking be the top AI model on April 24, 2026 (Style Control On)?",
+      "my_pick": "no",
+      "my_confidence": 0.7769999999999999,
+      "market_yes_price": 0.385,
+      "selected_side_price": 0.615,
+      "expected_profit": 0.16199999999999992,
+      "expected_roi": 0.26341463414634136,
+      "edge": 0.16199999999999992,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 38% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-22T15:00:10.027991+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1999978",
+      "question": "Will the price of Bitcoin be above $80,000 on April 23?",
+      "my_pick": "yes",
+      "my_confidence": 0.4,
+      "market_yes_price": 0.2795,
+      "selected_side_price": 0.2795,
+      "expected_profit": 0.1205,
+      "expected_roi": 0.4311270125223613,
+      "edge": 0.1205,
+      "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
+      "category": "crypto",
+      "picked_at": "2026-04-22T15:00:10.028139+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2034508",
+      "question": "Will the price of Bitcoin be above $80,000 on April 27?",
+      "my_pick": "yes",
+      "my_confidence": 0.4,
+      "market_yes_price": 0.38,
+      "selected_side_price": 0.38,
+      "expected_profit": 0.020000000000000018,
+      "expected_roi": 0.05263157894736847,
+      "edge": 0.020000000000000018,
+      "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
+      "category": "crypto",
+      "picked_at": "2026-04-22T15:00:10.028184+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 2,
     "correct": 1,
-    "pending": 23
+    "pending": 26
   }
 }

@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-22T11:00:10.417777+00:00",
-  "total_picks": 26,
-  "pending_count": 22,
+  "timestamp": "2026-04-22T13:00:10.193314+00:00",
+  "total_picks": 27,
+  "pending_count": 23,
   "resolved_count": 2,
   "win_rate": 0.5,
-  "pending_expected_profit_total": 4.0955,
-  "pending_expected_profit_positive_only": 4.0955,
+  "pending_expected_profit_total": 4.6655,
+  "pending_expected_profit_positive_only": 4.6655,
   "realized_profit_total": 0.1285,
-  "valid_strategy_pending_count": 22,
+  "valid_strategy_pending_count": 23,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 961.88,
-  "sim_pending_ev_dollars": 1297.91,
-  "sim_bankroll_plus_pending_ev": 2259.79,
+  "sim_pending_ev_dollars": 1397.6,
+  "sim_bankroll_plus_pending_ev": 2359.47,
   "sim_resolved_positions_count": 2,
   "top_pending_by_ev": [
     {
@@ -32,6 +32,14 @@
       "belief": 0.859,
       "expected_profit": 0.654,
       "expected_roi": 3.190244
+    },
+    {
+      "question": "Will claude-opus-4-6-thinking be the best AI model on April 24, 2026?",
+      "pick": "no",
+      "market_price_paid": 0.275,
+      "belief": 0.845,
+      "expected_profit": 0.57,
+      "expected_roi": 2.072727
     },
     {
       "question": "Will any other model be the top AI model on April 24, 2026 (Style Control On)?",
@@ -88,14 +96,6 @@
       "belief": 0.1505,
       "expected_profit": 0.1,
       "expected_roi": 1.980198
-    },
-    {
-      "question": "Will GPT-5.5 be released on April 30, 2026?",
-      "pick": "yes",
-      "market_price_paid": 0.105,
-      "belief": 0.205,
-      "expected_profit": 0.1,
-      "expected_roi": 0.952381
     }
   ]
 }

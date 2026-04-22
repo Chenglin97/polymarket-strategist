@@ -431,11 +431,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2036764",
+      "question": "Will claude-opus-4-6-thinking be the best AI model on April 24, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.845,
+      "market_yes_price": 0.725,
+      "selected_side_price": 0.275,
+      "expected_profit": 0.57,
+      "expected_roi": 2.0727272727272723,
+      "edge": 0.57,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 72% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-22T13:00:08.898317+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 2,
     "correct": 1,
-    "pending": 22
+    "pending": 23
   }
 }

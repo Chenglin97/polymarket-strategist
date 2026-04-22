@@ -207,9 +207,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 7% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-04-21T01:00:07.251230+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-22T07:00:03.979400+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2036748",
@@ -397,11 +397,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2035617",
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 24?",
+      "my_pick": "no",
+      "my_confidence": 0.859,
+      "market_yes_price": 0.795,
+      "selected_side_price": 0.20499999999999996,
+      "expected_profit": 0.654,
+      "expected_roi": 3.190243902439025,
+      "edge": 0.654,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 80% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-22T07:00:10.304888+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2036749",
+      "question": "Will any other model be the top AI model on April 24, 2026 (Style Control On)?",
+      "my_pick": "no",
+      "my_confidence": 0.838,
+      "market_yes_price": 0.69,
+      "selected_side_price": 0.31000000000000005,
+      "expected_profit": 0.5279999999999999,
+      "expected_roi": 1.7032258064516124,
+      "edge": 0.5279999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 69% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-22T07:00:10.305001+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 1,
+    "total": 2,
     "correct": 1,
-    "pending": 21
+    "pending": 22
   }
 }

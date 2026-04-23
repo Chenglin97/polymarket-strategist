@@ -550,11 +550,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2036789",
+      "question": "Will the next model released by OpenAI debut at a score of at least 1520?",
+      "my_pick": "yes",
+      "my_confidence": 0.14350000000000002,
+      "market_yes_price": 0.0435,
+      "selected_side_price": 0.0435,
+      "expected_profit": 0.10000000000000002,
+      "expected_roi": 2.2988505747126444,
+      "edge": 0.10000000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-23T03:00:10.889017+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 3,
     "correct": 2,
-    "pending": 28
+    "pending": 29
   }
 }

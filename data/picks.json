@@ -567,6 +567,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2053411",
+      "question": "Will the price of Bitcoin be above $80,000 on April 29?",
+      "my_pick": "yes",
+      "my_confidence": 0.4,
+      "market_yes_price": 0.26,
+      "selected_side_price": 0.26,
+      "expected_profit": 0.14,
+      "expected_roi": 0.5384615384615385,
+      "edge": 0.14,
+      "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
+      "category": "crypto",
+      "picked_at": "2026-04-23T11:00:10.510739+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

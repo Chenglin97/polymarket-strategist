@@ -462,9 +462,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 38% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-22T15:00:10.027991+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-25T03:00:03.041974+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1999978",
@@ -655,7 +655,7 @@
     }
   ],
   "stats": {
-    "total": 19,
+    "total": 20,
     "correct": 10,
     "pending": 29
   }

@@ -513,9 +513,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-22T17:00:10.324521+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-26T19:00:04.165575+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2007051",
@@ -649,9 +649,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-24T19:00:10.087876+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-26T19:00:04.952919+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1664259",
@@ -757,8 +757,8 @@
     }
   ],
   "stats": {
-    "total": 20,
-    "correct": 10,
+    "total": 22,
+    "correct": 11,
     "pending": 23
   }
 }

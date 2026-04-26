@@ -703,11 +703,62 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2068256",
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 28?",
+      "my_pick": "no",
+      "my_confidence": 0.848,
+      "market_yes_price": 0.74,
+      "selected_side_price": 0.26,
+      "expected_profit": 0.588,
+      "expected_roi": 2.2615384615384615,
+      "edge": 0.588,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 74% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-26T05:00:08.766594+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1975413",
+      "question": "Will Anthropic have the third best AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7919999999999999,
+      "market_yes_price": 0.46,
+      "selected_side_price": 0.54,
+      "expected_profit": 0.2519999999999999,
+      "expected_roi": 0.46666666666666645,
+      "edge": 0.2519999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 46% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-26T05:00:08.769798+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1975414",
+      "question": "Will Google have the third best AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.766,
+      "market_yes_price": 0.33,
+      "selected_side_price": 0.6699999999999999,
+      "expected_profit": 0.09600000000000009,
+      "expected_roi": 0.14328358208955239,
+      "edge": 0.09600000000000009,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 33% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-26T05:00:08.769867+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 20,
     "correct": 10,
-    "pending": 20
+    "pending": 23
   }
 }

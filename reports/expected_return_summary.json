@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-26T03:00:11.035146+00:00",
-  "total_picks": 42,
-  "pending_count": 20,
+  "timestamp": "2026-04-26T05:00:10.159972+00:00",
+  "total_picks": 45,
+  "pending_count": 23,
   "resolved_count": 20,
   "win_rate": 0.5,
-  "pending_expected_profit_total": 3.7865,
-  "pending_expected_profit_positive_only": 3.7865,
+  "pending_expected_profit_total": 4.7225,
+  "pending_expected_profit_positive_only": 4.7225,
   "realized_profit_total": 1.751,
-  "valid_strategy_pending_count": 20,
+  "valid_strategy_pending_count": 23,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 880.71,
-  "sim_pending_ev_dollars": 1024.6,
-  "sim_bankroll_plus_pending_ev": 1905.31,
+  "sim_pending_ev_dollars": 1151.04,
+  "sim_bankroll_plus_pending_ev": 2031.76,
   "sim_resolved_positions_count": 20,
   "top_pending_by_ev": [
     {
@@ -34,12 +34,28 @@
       "expected_roi": 4.094118
     },
     {
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on April 28?",
+      "pick": "no",
+      "market_price_paid": 0.26,
+      "belief": 0.848,
+      "expected_profit": 0.588,
+      "expected_roi": 2.261538
+    },
+    {
       "question": "Will Anthropic have the best AI model at the end of April 2026?",
       "pick": "no",
       "market_price_paid": 0.33,
       "belief": 0.834,
       "expected_profit": 0.504,
       "expected_roi": 1.527273
+    },
+    {
+      "question": "Will Anthropic have the third best AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.54,
+      "belief": 0.792,
+      "expected_profit": 0.252,
+      "expected_roi": 0.466667
     },
     {
       "question": "Will MetaMask launch a token by September 30, 2026?",
@@ -80,22 +96,6 @@
       "belief": 0.4,
       "expected_profit": 0.145,
       "expected_roi": 0.568627
-    },
-    {
-      "question": "Will OpenAI have the third best AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.63,
-      "belief": 0.774,
-      "expected_profit": 0.144,
-      "expected_roi": 0.228571
-    },
-    {
-      "question": "Will the price of Bitcoin be above $80,000 on April 29?",
-      "pick": "yes",
-      "market_price_paid": 0.26,
-      "belief": 0.4,
-      "expected_profit": 0.14,
-      "expected_roi": 0.538462
     }
   ]
 }

@@ -496,9 +496,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-22T15:00:10.028184+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-27T21:00:04.466839+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2023807",
@@ -564,9 +564,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-04-23T03:00:10.889017+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-27T21:00:04.614062+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2053411",
@@ -598,9 +598,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-23T13:00:10.214606+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-27T21:00:04.759147+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2044478",
@@ -791,7 +791,7 @@
     }
   ],
   "stats": {
-    "total": 22,
+    "total": 25,
     "correct": 11,
     "pending": 23
   }

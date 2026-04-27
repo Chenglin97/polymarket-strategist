@@ -771,11 +771,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1820670",
+      "question": "Will Anthropic have the second-best Math AI model at the end of April 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7739999999999999,
+      "market_yes_price": 0.37,
+      "selected_side_price": 0.63,
+      "expected_profit": 0.1439999999999999,
+      "expected_roi": 0.22857142857142843,
+      "edge": 0.1439999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 37% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-27T17:00:10.234460+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 22,
     "correct": 11,
-    "pending": 22
+    "pending": 23
   }
 }

@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-28T11:00:09.469714+00:00",
-  "total_picks": 50,
-  "pending_count": 23,
+  "timestamp": "2026-04-28T13:00:09.399375+00:00",
+  "total_picks": 58,
+  "pending_count": 31,
   "resolved_count": 25,
   "win_rate": 0.44,
-  "pending_expected_profit_total": 5.5615,
-  "pending_expected_profit_positive_only": 5.5615,
+  "pending_expected_profit_total": 7.8931,
+  "pending_expected_profit_positive_only": 7.8931,
   "realized_profit_total": 1.3925,
-  "valid_strategy_pending_count": 23,
+  "valid_strategy_pending_count": 31,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 788.55,
-  "sim_pending_ev_dollars": 1063.23,
-  "sim_bankroll_plus_pending_ev": 1851.78,
+  "sim_pending_ev_dollars": 1244.54,
+  "sim_bankroll_plus_pending_ev": 2033.09,
   "sim_resolved_positions_count": 25,
   "top_pending_by_ev": [
     {
@@ -66,36 +66,36 @@
       "expected_roi": 0.65567
     },
     {
-      "question": "Will Meta have the third best AI model at the end of June 2026?",
+      "question": "Will Amazon have the third best AI model at the end of June 2026?",
       "pick": "no",
-      "market_price_paid": 0.515,
-      "belief": 0.797,
-      "expected_profit": 0.282,
-      "expected_roi": 0.547573
+      "market_price_paid": 0.5005,
+      "belief": 0.7999,
+      "expected_profit": 0.2994,
+      "expected_roi": 0.598202
     },
     {
-      "question": "Will Anthropic have the third best AI model at the end of May 2026?",
+      "question": "Will Mistral have the third best AI model at the end of June 2026?",
       "pick": "no",
-      "market_price_paid": 0.54,
-      "belief": 0.792,
-      "expected_profit": 0.252,
-      "expected_roi": 0.466667
+      "market_price_paid": 0.5015,
+      "belief": 0.7997,
+      "expected_profit": 0.2982,
+      "expected_roi": 0.594616
     },
     {
-      "question": "Will MetaMask launch a token by September 30, 2026?",
-      "pick": "yes",
-      "market_price_paid": 0.21,
-      "belief": 0.378,
-      "expected_profit": 0.168,
-      "expected_roi": 0.8
+      "question": "Will ByteDance have the third best AI model at the end of June 2026?",
+      "pick": "no",
+      "market_price_paid": 0.506,
+      "belief": 0.7988,
+      "expected_profit": 0.2928,
+      "expected_roi": 0.578656
     },
     {
-      "question": "Will a new MAI model be released by April 30, 2026?",
-      "pick": "yes",
-      "market_price_paid": 0.195,
-      "belief": 0.351,
-      "expected_profit": 0.156,
-      "expected_roi": 0.8
+      "question": "Will Alibaba have the #1 AI model at the end of April 2026 (Style Control On)?",
+      "pick": "no",
+      "market_price_paid": 0.5065,
+      "belief": 0.7987,
+      "expected_profit": 0.2922,
+      "expected_roi": 0.5769
     }
   ]
 }

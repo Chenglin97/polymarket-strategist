@@ -805,11 +805,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "631161",
+      "question": "Will Anthropic have the second best AI model at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.8029999999999999,
+      "market_yes_price": 0.515,
+      "selected_side_price": 0.485,
+      "expected_profit": 0.31799999999999995,
+      "expected_roi": 0.6556701030927834,
+      "edge": 0.31799999999999995,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 52% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-28T11:00:08.167170+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1974467",
+      "question": "Will Meta have the third best AI model at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7969999999999999,
+      "market_yes_price": 0.485,
+      "selected_side_price": 0.515,
+      "expected_profit": 0.2819999999999999,
+      "expected_roi": 0.5475728155339804,
+      "edge": 0.2819999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 48% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-28T11:00:08.167324+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 25,
     "correct": 11,
-    "pending": 21
+    "pending": 23
   }
 }

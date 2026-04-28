@@ -127,16 +127,16 @@
   },
   {
     "date": "2026-04-28",
-    "pending_expected_profit_total": 7.9991,
-    "pending_expected_profit_positive_only": 7.9991,
-    "realized_profit_total": 1.3925,
-    "pending_count": 32,
-    "valid_strategy_pending_count": 32,
+    "pending_expected_profit_total": 7.1511,
+    "pending_expected_profit_positive_only": 7.1511,
+    "realized_profit_total": 0.5925,
+    "pending_count": 29,
+    "valid_strategy_pending_count": 29,
     "invalid_strategy_pending_count": 0,
     "legacy_invalid_count": 2,
-    "sim_realized_bankroll": 788.55,
-    "sim_pending_ev_dollars": 1251.03,
-    "sim_bankroll_plus_pending_ev": 2039.58,
-    "win_rate": 0.44
+    "sim_realized_bankroll": 676.08,
+    "sim_pending_ev_dollars": 1076.24,
+    "sim_bankroll_plus_pending_ev": 1752.32,
+    "win_rate": 0.39285714285714285
   }
 ]

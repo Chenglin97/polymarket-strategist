@@ -615,9 +615,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-23T13:00:10.214755+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-28T21:00:03.863017+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1975415",
@@ -683,9 +683,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-25T13:00:09.316830+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-28T21:00:04.336080+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1931266",
@@ -717,9 +717,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 74% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-26T05:00:08.766594+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-28T21:00:04.817736+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1975413",
@@ -995,7 +995,7 @@
     }
   ],
   "stats": {
-    "total": 25,
+    "total": 28,
     "correct": 11,
     "pending": 32
   }

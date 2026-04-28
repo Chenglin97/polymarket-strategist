@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-28T05:00:09.630904+00:00",
-  "total_picks": 47,
-  "pending_count": 20,
+  "timestamp": "2026-04-28T07:00:09.843675+00:00",
+  "total_picks": 48,
+  "pending_count": 21,
   "resolved_count": 25,
   "win_rate": 0.44,
-  "pending_expected_profit_total": 4.5115,
-  "pending_expected_profit_positive_only": 4.5115,
+  "pending_expected_profit_total": 4.9615,
+  "pending_expected_profit_positive_only": 4.9615,
   "realized_profit_total": 1.3925,
-  "valid_strategy_pending_count": 20,
+  "valid_strategy_pending_count": 21,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 788.55,
-  "sim_pending_ev_dollars": 968.48,
-  "sim_bankroll_plus_pending_ev": 1757.02,
+  "sim_pending_ev_dollars": 1015.79,
+  "sim_bankroll_plus_pending_ev": 1804.33,
   "sim_resolved_positions_count": 25,
   "top_pending_by_ev": [
     {
@@ -48,6 +48,14 @@
       "belief": 0.834,
       "expected_profit": 0.504,
       "expected_roi": 1.527273
+    },
+    {
+      "question": "Will Anthropic have the best AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.375,
+      "belief": 0.825,
+      "expected_profit": 0.45,
+      "expected_roi": 1.2
     },
     {
       "question": "Will Anthropic have the third best AI model at the end of May 2026?",
@@ -88,14 +96,6 @@
       "belief": 0.4,
       "expected_profit": 0.145,
       "expected_roi": 0.568627
-    },
-    {
-      "question": "Will OpenAI have the third best AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.63,
-      "belief": 0.774,
-      "expected_profit": 0.144,
-      "expected_roi": 0.228571
     }
   ]
 }

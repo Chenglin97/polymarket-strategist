@@ -1043,11 +1043,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2070261",
+      "question": "Will Meituan have the second-best Coding AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7589999999999999,
+      "market_yes_price": 0.295,
+      "selected_side_price": 0.7050000000000001,
+      "expected_profit": 0.053999999999999826,
+      "expected_roi": 0.07659574468085081,
+      "edge": 0.053999999999999826,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 30% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-29T09:00:40.507762+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 28,
     "correct": 11,
-    "pending": 32
+    "pending": 33
   }
 }

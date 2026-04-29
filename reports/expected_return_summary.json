@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-29T09:00:41.860389+00:00",
-  "total_picks": 63,
-  "pending_count": 33,
+  "timestamp": "2026-04-29T11:00:29.112848+00:00",
+  "total_picks": 68,
+  "pending_count": 38,
   "resolved_count": 28,
   "win_rate": 0.39285714285714285,
-  "pending_expected_profit_total": 7.5171,
-  "pending_expected_profit_positive_only": 7.5171,
+  "pending_expected_profit_total": 8.7631,
+  "pending_expected_profit_positive_only": 8.7631,
   "realized_profit_total": 0.5925,
-  "valid_strategy_pending_count": 33,
+  "valid_strategy_pending_count": 38,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 676.08,
-  "sim_pending_ev_dollars": 1095.3,
-  "sim_bankroll_plus_pending_ev": 1771.38,
+  "sim_pending_ev_dollars": 1181.19,
+  "sim_bankroll_plus_pending_ev": 1857.27,
   "sim_resolved_positions_count": 28,
   "top_pending_by_ev": [
     {
@@ -74,28 +74,28 @@
       "expected_roi": 0.594616
     },
     {
-      "question": "Will ByteDance have the third best AI model at the end of June 2026?",
+      "question": "Will xAI have the second-best Coding AI model at the end of May 2026?",
       "pick": "no",
-      "market_price_paid": 0.506,
-      "belief": 0.7988,
-      "expected_profit": 0.2928,
-      "expected_roi": 0.578656
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
     },
     {
-      "question": "Will Alibaba have the #1 AI model at the end of April 2026 (Style Control On)?",
+      "question": "Will Moonshot have the second-best Coding AI model at the end of May 2026?",
       "pick": "no",
-      "market_price_paid": 0.5065,
-      "belief": 0.7987,
-      "expected_profit": 0.2922,
-      "expected_roi": 0.5769
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
     },
     {
-      "question": "Will Xiaomi have the second-best Coding AI model at the end of April 2026?",
+      "question": "Will DeepSeek have the second-best Coding AI model at the end of May 2026?",
       "pick": "no",
-      "market_price_paid": 0.5095,
-      "belief": 0.7981,
-      "expected_profit": 0.2886,
-      "expected_roi": 0.566438
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
     }
   ]
 }

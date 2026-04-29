@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-04-29T15:00:40.621313+00:00",
-  "total_picks": 68,
-  "pending_count": 38,
+  "timestamp": "2026-04-29T17:01:08.709065+00:00",
+  "total_picks": 69,
+  "pending_count": 39,
   "resolved_count": 28,
   "win_rate": 0.39285714285714285,
-  "pending_expected_profit_total": 8.7631,
-  "pending_expected_profit_positive_only": 8.7631,
+  "pending_expected_profit_total": 9.1531,
+  "pending_expected_profit_positive_only": 9.1531,
   "realized_profit_total": 0.5925,
-  "valid_strategy_pending_count": 38,
+  "valid_strategy_pending_count": 39,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 676.08,
-  "sim_pending_ev_dollars": 1181.19,
-  "sim_bankroll_plus_pending_ev": 1857.27,
+  "sim_pending_ev_dollars": 1212.21,
+  "sim_bankroll_plus_pending_ev": 1888.29,
   "sim_resolved_positions_count": 28,
   "top_pending_by_ev": [
     {
@@ -50,6 +50,14 @@
       "expected_roi": 1.2
     },
     {
+      "question": "Will Alibaba have the best AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.425,
+      "belief": 0.815,
+      "expected_profit": 0.39,
+      "expected_roi": 0.917647
+    },
+    {
       "question": "Will Anthropic have the second best AI model at the end of June 2026?",
       "pick": "no",
       "market_price_paid": 0.485,
@@ -83,14 +91,6 @@
     },
     {
       "question": "Will Moonshot have the second-best Coding AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.505,
-      "belief": 0.799,
-      "expected_profit": 0.294,
-      "expected_roi": 0.582178
-    },
-    {
-      "question": "Will DeepSeek have the second-best Coding AI model at the end of May 2026?",
       "pick": "no",
       "market_price_paid": 0.505,
       "belief": 0.799,

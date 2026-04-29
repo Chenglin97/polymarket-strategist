@@ -1026,11 +1026,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2070257",
+      "question": "Will Amazon have the second-best Coding AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.76,
+      "market_yes_price": 0.3,
+      "selected_side_price": 0.7,
+      "expected_profit": 0.06000000000000005,
+      "expected_roi": 0.0857142857142858,
+      "edge": 0.06000000000000005,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 30% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-29T07:00:10.694753+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 28,
     "correct": 11,
-    "pending": 31
+    "pending": 32
   }
 }

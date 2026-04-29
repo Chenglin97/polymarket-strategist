@@ -1162,11 +1162,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2070251",
+      "question": "Will OpenAI have the second-best Coding AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7629999999999999,
+      "market_yes_price": 0.315,
+      "selected_side_price": 0.685,
+      "expected_profit": 0.07799999999999985,
+      "expected_roi": 0.1138686131386859,
+      "edge": 0.07799999999999985,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-29T19:00:14.516096+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 28,
     "correct": 11,
-    "pending": 39
+    "pending": 40
   }
 }

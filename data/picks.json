@@ -785,9 +785,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 37% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-27T17:00:10.234460+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T19:00:04.950475+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1975534",
@@ -921,9 +921,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081167+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T19:00:06.691743+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1664108",
@@ -955,9 +955,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081222+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T19:00:07.187837+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1820240",
@@ -1179,11 +1179,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2098278",
+      "question": "Will Sudarshan Yellamaraju finish in the Top 10 at the 2026 Cadillac Championship?",
+      "my_pick": "yes",
+      "my_confidence": 0.155,
+      "market_yes_price": 0.055,
+      "selected_side_price": 0.055,
+      "expected_profit": 0.1,
+      "expected_roi": 1.8181818181818183,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
+      "category": "macro",
+      "picked_at": "2026-04-30T19:00:13.468988+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 29,
-    "correct": 11,
-    "pending": 40
+    "total": 32,
+    "correct": 14,
+    "pending": 37
   }
 }

@@ -190,9 +190,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 83% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-20T21:00:07.120076+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-30T21:00:03.777010+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1929689",
@@ -343,9 +343,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 67% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-21T09:00:09.907470+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-30T21:00:03.856031+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1929692",
@@ -547,9 +547,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 85% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-22T23:00:10.686198+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T21:00:03.936589+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2036789",
@@ -666,9 +666,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 35% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-25T05:00:08.560830+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-30T21:00:04.248120+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2044422",
@@ -768,9 +768,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-27T05:00:09.279817+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-30T21:00:05.184050+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1820670",
@@ -904,9 +904,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081140+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T21:00:06.404199+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1820325",
@@ -938,9 +938,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081195+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T21:00:06.653838+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1820324",
@@ -972,9 +972,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081250+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-04-30T21:00:06.890607+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1328016",
@@ -1142,9 +1142,9 @@
       "reasoning": "BTC at ~$74,674. $80K is +7.1% - possible but not certain. Slight yes edge.",
       "category": "crypto",
       "picked_at": "2026-04-29T11:00:27.809590+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-04-30T21:00:08.956805+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2070087",
@@ -1199,8 +1199,8 @@
     }
   ],
   "stats": {
-    "total": 32,
-    "correct": 14,
+    "total": 41,
+    "correct": 18,
     "pending": 37
   }
 }

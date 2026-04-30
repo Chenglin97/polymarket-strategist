@@ -1,22 +1,30 @@
 {
-  "timestamp": "2026-04-30T21:00:14.406218+00:00",
-  "total_picks": 71,
-  "pending_count": 28,
+  "timestamp": "2026-04-30T23:00:13.503023+00:00",
+  "total_picks": 73,
+  "pending_count": 30,
   "resolved_count": 41,
   "win_rate": 0.43902439024390244,
-  "pending_expected_profit_total": 5.4659,
-  "pending_expected_profit_positive_only": 5.4659,
+  "pending_expected_profit_total": 6.0629,
+  "pending_expected_profit_positive_only": 6.0629,
   "realized_profit_total": 2.1535,
-  "valid_strategy_pending_count": 28,
+  "valid_strategy_pending_count": 30,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 830.27,
-  "sim_pending_ev_dollars": 739.77,
-  "sim_bankroll_plus_pending_ev": 1570.03,
+  "sim_pending_ev_dollars": 832.25,
+  "sim_bankroll_plus_pending_ev": 1662.51,
   "sim_resolved_positions_count": 41,
   "top_pending_by_ev": [
+    {
+      "question": "Will Anthropic have the best AI model at the end of June 2026?",
+      "pick": "no",
+      "market_price_paid": 0.3425,
+      "belief": 0.8315,
+      "expected_profit": 0.489,
+      "expected_roi": 1.427737
+    },
     {
       "question": "Will Anthropic have the best AI model at the end of May 2026?",
       "pick": "no",
@@ -88,14 +96,6 @@
       "belief": 0.799,
       "expected_profit": 0.294,
       "expected_roi": 0.582178
-    },
-    {
-      "question": "Will ByteDance have the third best AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.506,
-      "belief": 0.7988,
-      "expected_profit": 0.2928,
-      "expected_roi": 0.578656
     }
   ]
 }

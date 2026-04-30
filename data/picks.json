@@ -1196,11 +1196,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "631140",
+      "question": "Will Anthropic have the best AI model at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.8314999999999999,
+      "market_yes_price": 0.6575,
+      "selected_side_price": 0.3425,
+      "expected_profit": 0.4889999999999999,
+      "expected_roi": 1.4277372262773718,
+      "edge": 0.4889999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 66% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-30T23:00:12.180629+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "1295984",
+      "question": "Will OpenAI announce a head-mounted display in 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.24300000000000002,
+      "market_yes_price": 0.135,
+      "selected_side_price": 0.135,
+      "expected_profit": 0.10800000000000001,
+      "expected_roi": 0.8,
+      "edge": 0.10800000000000001,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-04-30T23:00:12.180798+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 41,
     "correct": 18,
-    "pending": 37
+    "pending": 30
   }
 }

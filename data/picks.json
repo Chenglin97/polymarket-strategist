@@ -1281,11 +1281,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2070206",
+      "question": "Will Anthropic have the best Coding AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.875,
+      "market_yes_price": 0.875,
+      "selected_side_price": 0.125,
+      "expected_profit": 0.75,
+      "expected_roi": 6.0,
+      "edge": 0.75,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 88% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-01T13:00:11.537635+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 41,
     "correct": 18,
-    "pending": 33
+    "pending": 34
   }
 }

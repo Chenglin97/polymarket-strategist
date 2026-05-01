@@ -1298,11 +1298,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2098204",
+      "question": "Will Sudarshan Yellamaraju finish in the Top 5 at the 2026 Cadillac Championship?",
+      "my_pick": "yes",
+      "my_confidence": 0.1525,
+      "market_yes_price": 0.0525,
+      "selected_side_price": 0.0525,
+      "expected_profit": 0.1,
+      "expected_roi": 1.9047619047619049,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 5% looks a bit too low.",
+      "category": "macro",
+      "picked_at": "2026-05-01T17:00:13.467409+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 41,
     "correct": 18,
-    "pending": 34
+    "pending": 35
   }
 }

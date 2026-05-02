@@ -1349,11 +1349,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2132747",
+      "question": "Will the next model released by xAI debut at a score of at least 1480?",
+      "my_pick": "yes",
+      "my_confidence": 0.36000000000000004,
+      "market_yes_price": 0.2,
+      "selected_side_price": 0.2,
+      "expected_profit": 0.16000000000000003,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.16000000000000003,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 20% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-02T17:00:12.385600+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2132424",
+      "question": "Will the next model released by OpenAI debut at a score of at least 1520?",
+      "my_pick": "yes",
+      "my_confidence": 0.1245,
+      "market_yes_price": 0.0245,
+      "selected_side_price": 0.0245,
+      "expected_profit": 0.1,
+      "expected_roi": 4.081632653061225,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-02T17:00:12.385775+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 41,
     "correct": 18,
-    "pending": 37
+    "pending": 39
   }
 }

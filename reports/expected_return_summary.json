@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-05-02T19:00:15.453467+00:00",
-  "total_picks": 82,
-  "pending_count": 39,
+  "timestamp": "2026-05-02T21:00:13.295126+00:00",
+  "total_picks": 83,
+  "pending_count": 40,
   "resolved_count": 41,
   "win_rate": 0.43902439024390244,
-  "pending_expected_profit_total": 8.1889,
-  "pending_expected_profit_positive_only": 8.1889,
+  "pending_expected_profit_total": 8.9359,
+  "pending_expected_profit_positive_only": 8.9359,
   "realized_profit_total": 2.1535,
-  "valid_strategy_pending_count": 39,
+  "valid_strategy_pending_count": 40,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 830.27,
-  "sim_pending_ev_dollars": 1624.73,
-  "sim_bankroll_plus_pending_ev": 2455.0,
+  "sim_pending_ev_dollars": 1867.95,
+  "sim_bankroll_plus_pending_ev": 2698.22,
   "sim_resolved_positions_count": 41,
   "top_pending_by_ev": [
     {
@@ -24,6 +24,14 @@
       "belief": 0.875,
       "expected_profit": 0.75,
       "expected_roi": 6.0
+    },
+    {
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on May 5?",
+      "pick": "no",
+      "market_price_paid": 0.1275,
+      "belief": 0.8745,
+      "expected_profit": 0.747,
+      "expected_roi": 5.858824
     },
     {
       "question": "Will claude-opus-4-6-thinking have the best AI model on May 8, 2026?",
@@ -83,14 +91,6 @@
     },
     {
       "question": "Will xAI have the second-best Coding AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.505,
-      "belief": 0.799,
-      "expected_profit": 0.294,
-      "expected_roi": 0.582178
-    },
-    {
-      "question": "Will Moonshot have the second-best Coding AI model at the end of May 2026?",
       "pick": "no",
       "market_price_paid": 0.505,
       "belief": 0.799,

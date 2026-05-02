@@ -1332,11 +1332,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2109513",
+      "question": "Will OpenAI have a #1 AI model by December 31, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7689999999999999,
+      "market_yes_price": 0.345,
+      "selected_side_price": 0.655,
+      "expected_profit": 0.11399999999999988,
+      "expected_roi": 0.17404580152671736,
+      "edge": 0.11399999999999988,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 34% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-02T09:00:12.055641+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 41,
     "correct": 18,
-    "pending": 36
+    "pending": 37
   }
 }

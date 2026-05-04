@@ -1400,11 +1400,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1744124",
+      "question": "Will a Claude Mythos model be released by June 30, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.324,
+      "market_yes_price": 0.18,
+      "selected_side_price": 0.18,
+      "expected_profit": 0.14400000000000002,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.14400000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 18% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-04T01:00:12.225699+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 43,
     "correct": 18,
-    "pending": 40
+    "pending": 39
   }
 }

@@ -1417,11 +1417,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2109512",
+      "question": "Will Google have a #1 AI model by December 31, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.851,
+      "market_yes_price": 0.755,
+      "selected_side_price": 0.245,
+      "expected_profit": 0.606,
+      "expected_roi": 2.473469387755102,
+      "edge": 0.606,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 76% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-05T01:00:14.201308+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 43,
     "correct": 18,
-    "pending": 39
+    "pending": 40
   }
 }

@@ -1468,11 +1468,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2109515",
+      "question": "Will xAI have a #1 AI model by December 31, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7909999999999999,
+      "market_yes_price": 0.455,
+      "selected_side_price": 0.5449999999999999,
+      "expected_profit": 0.246,
+      "expected_roi": 0.45137614678899085,
+      "edge": 0.246,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 46% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-06T19:00:13.432588+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 45,
     "correct": 19,
-    "pending": 40
+    "pending": 41
   }
 }

@@ -1519,11 +1519,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1295976",
+      "question": "Will OpenAI announce earbuds or headphones in 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.378,
+      "market_yes_price": 0.21,
+      "selected_side_price": 0.21,
+      "expected_profit": 0.168,
+      "expected_roi": 0.8,
+      "edge": 0.168,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 21% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-07T17:00:15.401790+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 47,
     "correct": 19,
-    "pending": 41
+    "pending": 42
   }
 }

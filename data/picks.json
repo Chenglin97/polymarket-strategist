@@ -1604,11 +1604,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "1295981",
+      "question": "Will OpenAI announce a ring in 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.279,
+      "market_yes_price": 0.155,
+      "selected_side_price": 0.155,
+      "expected_profit": 0.12400000000000003,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.12400000000000003,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 16% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-08T09:00:14.492902+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2167371",
+      "question": "Will Gemini 3.2 be released on May 22?",
+      "my_pick": "yes",
+      "my_confidence": 0.1655,
+      "market_yes_price": 0.0655,
+      "selected_side_price": 0.0655,
+      "expected_profit": 0.1,
+      "expected_roi": 1.5267175572519085,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 7% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-08T09:00:14.493082+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 48,
     "correct": 19,
-    "pending": 45
+    "pending": 47
   }
 }

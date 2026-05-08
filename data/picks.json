@@ -1584,13 +1584,30 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-08T03:00:15.207772+00:00",
+      "status": "wrong",
+      "resolved_at": "2026-05-08T07:00:11.707133+00:00",
+      "final_yes_price": 0.0
+    },
+    {
+      "market_id": "2167357",
+      "question": "Will Gemini 3.2 be released on May 8?",
+      "my_pick": "yes",
+      "my_confidence": 0.12050000000000001,
+      "market_yes_price": 0.0205,
+      "selected_side_price": 0.0205,
+      "expected_profit": 0.1,
+      "expected_roi": 4.878048780487805,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-08T07:00:15.015136+00:00",
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 47,
+    "total": 48,
     "correct": 19,
     "pending": 45
   }

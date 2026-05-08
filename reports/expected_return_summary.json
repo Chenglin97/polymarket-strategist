@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-05-08T19:00:16.516520+00:00",
+  "timestamp": "2026-05-08T21:00:15.307759+00:00",
   "total_picks": 99,
-  "pending_count": 49,
-  "resolved_count": 48,
-  "win_rate": 0.3958333333333333,
-  "pending_expected_profit_total": 10.5109,
-  "pending_expected_profit_positive_only": 10.5109,
-  "realized_profit_total": 2.5135,
-  "valid_strategy_pending_count": 49,
+  "pending_count": 47,
+  "resolved_count": 50,
+  "win_rate": 0.38,
+  "pending_expected_profit_total": 9.2449,
+  "pending_expected_profit_positive_only": 9.2449,
+  "realized_profit_total": 2.0685,
+  "valid_strategy_pending_count": 47,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 736.3,
-  "sim_pending_ev_dollars": 2415.37,
-  "sim_bankroll_plus_pending_ev": 3151.67,
-  "sim_resolved_positions_count": 48,
+  "sim_realized_bankroll": 664.51,
+  "sim_pending_ev_dollars": 2064.19,
+  "sim_bankroll_plus_pending_ev": 2728.7,
+  "sim_resolved_positions_count": 50,
   "top_pending_by_ev": [
     {
       "question": "Will Anthropic have the best Coding AI model at the end of May 2026?",
@@ -26,28 +26,12 @@
       "expected_roi": 6.0
     },
     {
-      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on May 8?",
-      "pick": "no",
-      "market_price_paid": 0.19,
-      "belief": 0.862,
-      "expected_profit": 0.672,
-      "expected_roi": 3.536842
-    },
-    {
       "question": "Will Google have a #1 AI model by December 31, 2026?",
       "pick": "no",
       "market_price_paid": 0.245,
       "belief": 0.851,
       "expected_profit": 0.606,
       "expected_roi": 2.473469
-    },
-    {
-      "question": "Will claude-opus-4-6-thinking have the best AI model on May 8, 2026?",
-      "pick": "no",
-      "market_price_paid": 0.255,
-      "belief": 0.849,
-      "expected_profit": 0.594,
-      "expected_roi": 2.329412
     },
     {
       "question": "Will Anthropic have the best AI model at the end of June 2026?",
@@ -96,6 +80,22 @@
       "belief": 0.7997,
       "expected_profit": 0.2982,
       "expected_roi": 0.594616
+    },
+    {
+      "question": "Will xAI have the second-best Coding AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
+    },
+    {
+      "question": "Will Moonshot have the second-best Coding AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
     }
   ]
 }

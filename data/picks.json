@@ -1740,11 +1740,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2110753",
+      "question": "Will Anthropic\u2019s market cap be 1.8T or greater at market close on IPO day by December 31 2027?",
+      "my_pick": "no",
+      "my_confidence": 0.75,
+      "market_yes_price": 0.295,
+      "selected_side_price": 0.7050000000000001,
+      "expected_profit": 0.04499999999999993,
+      "expected_roi": 0.06382978723404245,
+      "edge": 0.04499999999999993,
+      "reasoning": "Anthropic IPO by 2027 is unlikely given they just raised at $61.5B valuation and are not profitable.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-12T09:00:15.310187+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 52,
     "correct": 19,
-    "pending": 49
+    "pending": 50
   }
 }

@@ -1808,11 +1808,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2167381",
+      "question": "Will Gemini 3.2 not be released by May 31?",
+      "my_pick": "yes",
+      "my_confidence": 0.136,
+      "market_yes_price": 0.036,
+      "selected_side_price": 0.036,
+      "expected_profit": 0.1,
+      "expected_roi": 2.777777777777778,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-14T15:00:17.507018+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 52,
     "correct": 19,
-    "pending": 53
+    "pending": 54
   }
 }

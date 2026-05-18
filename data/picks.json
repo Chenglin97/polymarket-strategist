@@ -1876,6 +1876,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2125429",
+      "question": "Will a new Gemini flagship be released by May 22, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.18,
+      "market_yes_price": 0.08,
+      "selected_side_price": 0.08,
+      "expected_profit": 0.09999999999999999,
+      "expected_roi": 1.2499999999999998,
+      "edge": 0.09999999999999999,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 8% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-18T13:00:16.988384+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

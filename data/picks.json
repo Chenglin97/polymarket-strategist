@@ -54,9 +54,9 @@
       "reasoning": "Google has been accelerating Gemini releases significantly. Gemini 2.0 Flash/Pro released in early 2026. A 3.5 release by May 31 is ambitious but Google's velocity suggests 20-25% is more accurate than market's 6.5%. Edge: market underpricing Google's release pace.",
       "category": "tech/ai",
       "picked_at": "2026-04-16T08:52:44.342888+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-05-19T21:00:01.857976+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "1975508",
@@ -1550,9 +1550,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-07T19:00:14.741035+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:09.844183+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2167370",
@@ -1567,9 +1567,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 3% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-07T21:00:14.829566+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:10.082628+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2167356",
@@ -1635,9 +1635,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 7% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-08T09:00:14.493082+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:10.578644+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2167367",
@@ -1686,9 +1686,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-09T05:00:15.026611+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:11.086590+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2118745",
@@ -1822,9 +1822,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-14T15:00:17.507018+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:13.042813+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2167366",
@@ -1856,9 +1856,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 74% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-16T03:00:15.999171+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-19T21:00:13.291227+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2268857",
@@ -1913,8 +1913,8 @@
     }
   ],
   "stats": {
-    "total": 56,
-    "correct": 19,
+    "total": 63,
+    "correct": 20,
     "pending": 56
   }
 }

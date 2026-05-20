@@ -1703,9 +1703,9 @@
       "reasoning": "Fed hiking 25bps is very unlikely - they are in pause/cut mode.",
       "category": "macro",
       "picked_at": "2026-05-10T21:00:15.108789+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-05-20T09:00:10.384784+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2070249",
@@ -1910,11 +1910,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2268858",
+      "question": "Will GPT-5.6 be released between May 18 and May 24, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.133,
+      "market_yes_price": 0.033,
+      "selected_side_price": 0.033,
+      "expected_profit": 0.1,
+      "expected_roi": 3.0303030303030303,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 3% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-20T09:00:15.515898+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 64,
-    "correct": 20,
-    "pending": 56
+    "total": 65,
+    "correct": 21,
+    "pending": 47
   }
 }

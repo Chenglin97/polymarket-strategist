@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-05-23T03:00:17.207304+00:00",
-  "total_picks": 118,
-  "pending_count": 51,
+  "timestamp": "2026-05-23T05:00:16.428231+00:00",
+  "total_picks": 119,
+  "pending_count": 52,
   "resolved_count": 65,
   "win_rate": 0.3230769230769231,
-  "pending_expected_profit_total": 11.1594,
-  "pending_expected_profit_positive_only": 11.1594,
+  "pending_expected_profit_total": 11.8074,
+  "pending_expected_profit_positive_only": 11.8074,
   "realized_profit_total": 2.08,
-  "valid_strategy_pending_count": 51,
+  "valid_strategy_pending_count": 52,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 587.53,
-  "sim_pending_ev_dollars": 2956.66,
-  "sim_bankroll_plus_pending_ev": 3544.2,
+  "sim_pending_ev_dollars": 3047.31,
+  "sim_bankroll_plus_pending_ev": 3634.84,
   "sim_resolved_positions_count": 65,
   "top_pending_by_ev": [
     {
@@ -40,6 +40,14 @@
       "belief": 0.862,
       "expected_profit": 0.672,
       "expected_roi": 3.536842
+    },
+    {
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on May 29?",
+      "pick": "no",
+      "market_price_paid": 0.21,
+      "belief": 0.858,
+      "expected_profit": 0.648,
+      "expected_roi": 3.085714
     },
     {
       "question": "Will Google have a #1 AI model by December 31, 2026?",
@@ -88,14 +96,6 @@
       "belief": 0.803,
       "expected_profit": 0.318,
       "expected_roi": 0.65567
-    },
-    {
-      "question": "Will Amazon have the third best AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.5005,
-      "belief": 0.7999,
-      "expected_profit": 0.2994,
-      "expected_roi": 0.598202
     }
   ]
 }

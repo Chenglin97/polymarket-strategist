@@ -2029,6 +2029,40 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2316354",
+      "question": "Will claude-opus-4-6-thinking have the best AI model on May 30, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.817,
+      "market_yes_price": 0.585,
+      "selected_side_price": 0.41500000000000004,
+      "expected_profit": 0.4019999999999999,
+      "expected_roi": 0.9686746987951804,
+      "edge": 0.4019999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 58% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-26T23:00:16.326232+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2294941",
+      "question": "GPT-5.6 released by June 8, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.261,
+      "market_yes_price": 0.145,
+      "selected_side_price": 0.145,
+      "expected_profit": 0.11600000000000002,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.11600000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-26T23:00:16.326411+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

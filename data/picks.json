@@ -2165,11 +2165,62 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2070337",
+      "question": "Will Google have the best Math AI model at the end of May 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.86,
+      "market_yes_price": 0.8,
+      "selected_side_price": 0.19999999999999996,
+      "expected_profit": 0.66,
+      "expected_roi": 3.3000000000000007,
+      "edge": 0.66,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 80% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-28T17:00:18.928861+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2303132",
+      "question": "GPT-5.6 released by June 5, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.261,
+      "market_yes_price": 0.145,
+      "selected_side_price": 0.145,
+      "expected_profit": 0.11600000000000002,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.11600000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-05-28T17:00:18.929056+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2325674",
+      "question": "Grok 4.4 released by May 31?",
+      "my_pick": "yes",
+      "my_confidence": 0.16,
+      "market_yes_price": 0.06,
+      "selected_side_price": 0.06,
+      "expected_profit": 0.1,
+      "expected_roi": 1.6666666666666667,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
+      "category": "macro",
+      "picked_at": "2026-05-28T17:00:18.929142+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 67,
     "correct": 21,
-    "pending": 59
+    "pending": 62
   }
 }

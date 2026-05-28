@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-05-28T15:00:18.164293+00:00",
-  "total_picks": 128,
-  "pending_count": 59,
+  "timestamp": "2026-05-28T17:00:20.244735+00:00",
+  "total_picks": 131,
+  "pending_count": 62,
   "resolved_count": 67,
   "win_rate": 0.31343283582089554,
-  "pending_expected_profit_total": 13.1494,
-  "pending_expected_profit_positive_only": 13.1494,
+  "pending_expected_profit_total": 14.0254,
+  "pending_expected_profit_positive_only": 14.0254,
   "realized_profit_total": 1.967,
-  "valid_strategy_pending_count": 59,
+  "valid_strategy_pending_count": 62,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 530.25,
-  "sim_pending_ev_dollars": 3106.6,
-  "sim_bankroll_plus_pending_ev": 3636.85,
+  "sim_pending_ev_dollars": 3259.49,
+  "sim_bankroll_plus_pending_ev": 3789.74,
   "sim_resolved_positions_count": 67,
   "top_pending_by_ev": [
     {
@@ -40,6 +40,14 @@
       "belief": 0.862,
       "expected_profit": 0.672,
       "expected_roi": 3.536842
+    },
+    {
+      "question": "Will Google have the best Math AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.2,
+      "belief": 0.86,
+      "expected_profit": 0.66,
+      "expected_roi": 3.3
     },
     {
       "question": "Will ChatGPT be #1 Free App in the US Apple App Store on May 29?",
@@ -88,14 +96,6 @@
       "belief": 0.817,
       "expected_profit": 0.402,
       "expected_roi": 0.968675
-    },
-    {
-      "question": "Will Alibaba have the best AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.425,
-      "belief": 0.815,
-      "expected_profit": 0.39,
-      "expected_roi": 0.917647
     }
   ]
 }

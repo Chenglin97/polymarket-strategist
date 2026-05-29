@@ -558,5 +558,19 @@
     "sim_pending_ev_dollars": 3282.54,
     "sim_bankroll_plus_pending_ev": 3812.79,
     "win_rate": 0.31343283582089554
+  },
+  {
+    "date": "2026-05-29",
+    "pending_expected_profit_total": 14.1254,
+    "pending_expected_profit_positive_only": 14.1254,
+    "realized_profit_total": 1.967,
+    "pending_count": 63,
+    "valid_strategy_pending_count": 63,
+    "invalid_strategy_pending_count": 0,
+    "legacy_invalid_count": 2,
+    "sim_realized_bankroll": 530.25,
+    "sim_pending_ev_dollars": 3282.54,
+    "sim_bankroll_plus_pending_ev": 3812.79,
+    "win_rate": 0.31343283582089554
   }
 ]

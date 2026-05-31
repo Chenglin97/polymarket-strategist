@@ -71,9 +71,9 @@
       "reasoning": "Being definitively #1 in AI is hard to hold. DeepSeek is strong but not consistently #1.",
       "category": "tech/ai",
       "picked_at": "2026-04-19T09:00:05.820426+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-05-31T23:00:01.769540+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1340071",
@@ -632,9 +632,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 37% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-24T01:00:08.914309+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-05-31T23:00:02.931727+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2023752",
@@ -802,9 +802,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 62% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T07:00:08.522260+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-31T23:00:03.467897+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "631161",
@@ -1159,9 +1159,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 57% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-29T17:01:07.408041+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-05-31T23:00:06.227830+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2070251",
@@ -1669,9 +1669,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 29% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-08T19:00:15.178823+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-05-31T23:00:08.580422+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2167375",
@@ -2253,8 +2253,8 @@
     }
   ],
   "stats": {
-    "total": 70,
-    "correct": 22,
+    "total": 75,
+    "correct": 25,
     "pending": 64
   }
 }

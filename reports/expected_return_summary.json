@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-05-31T23:00:18.710454+00:00",
+  "timestamp": "2026-06-01T01:00:17.479846+00:00",
   "total_picks": 133,
-  "pending_count": 56,
-  "resolved_count": 75,
-  "win_rate": 0.3333333333333333,
-  "pending_expected_profit_total": 11.8854,
-  "pending_expected_profit_positive_only": 11.8854,
-  "realized_profit_total": 1.831,
-  "valid_strategy_pending_count": 56,
+  "pending_count": 55,
+  "resolved_count": 76,
+  "win_rate": 0.32894736842105265,
+  "pending_expected_profit_total": 11.2134,
+  "pending_expected_profit_positive_only": 11.2134,
+  "realized_profit_total": 1.641,
+  "valid_strategy_pending_count": 55,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 475.62,
-  "sim_pending_ev_dollars": 2918.34,
-  "sim_bankroll_plus_pending_ev": 3393.96,
-  "sim_resolved_positions_count": 75,
+  "sim_realized_bankroll": 451.83,
+  "sim_pending_ev_dollars": 2759.26,
+  "sim_bankroll_plus_pending_ev": 3211.1,
+  "sim_resolved_positions_count": 76,
   "top_pending_by_ev": [
     {
       "question": "Will Anthropic have the best Coding AI model at the end of May 2026?",
@@ -32,14 +32,6 @@
       "belief": 0.875,
       "expected_profit": 0.75,
       "expected_roi": 6.0
-    },
-    {
-      "question": "Will Anthropic have the second best AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.19,
-      "belief": 0.862,
-      "expected_profit": 0.672,
-      "expected_roi": 3.536842
     },
     {
       "question": "Will Google have the best Math AI model at the end of May 2026?",
@@ -96,6 +88,14 @@
       "belief": 0.7997,
       "expected_profit": 0.2982,
       "expected_roi": 0.594616
+    },
+    {
+      "question": "Will xAI have the second-best Coding AI model at the end of May 2026?",
+      "pick": "no",
+      "market_price_paid": 0.505,
+      "belief": 0.799,
+      "expected_profit": 0.294,
+      "expected_roi": 0.582178
     }
   ]
 }

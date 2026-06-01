@@ -1,30 +1,22 @@
 {
-  "timestamp": "2026-06-01T03:00:18.271521+00:00",
+  "timestamp": "2026-06-01T05:00:17.397459+00:00",
   "total_picks": 133,
-  "pending_count": 45,
-  "resolved_count": 86,
-  "win_rate": 0.37209302325581395,
-  "pending_expected_profit_total": 8.0514,
-  "pending_expected_profit_positive_only": 8.0514,
-  "realized_profit_total": 3.776,
-  "valid_strategy_pending_count": 45,
+  "pending_count": 41,
+  "resolved_count": 90,
+  "win_rate": 0.3888888888888889,
+  "pending_expected_profit_total": 7.1214,
+  "pending_expected_profit_positive_only": 7.1214,
+  "realized_profit_total": 4.551,
+  "valid_strategy_pending_count": 41,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 502.24,
-  "sim_pending_ev_dollars": 2053.48,
-  "sim_bankroll_plus_pending_ev": 2555.73,
-  "sim_resolved_positions_count": 86,
+  "sim_realized_bankroll": 512.64,
+  "sim_pending_ev_dollars": 2019.57,
+  "sim_bankroll_plus_pending_ev": 2532.21,
+  "sim_resolved_positions_count": 90,
   "top_pending_by_ev": [
-    {
-      "question": "Will Google have the best Math AI model at the end of May 2026?",
-      "pick": "no",
-      "market_price_paid": 0.2,
-      "belief": 0.86,
-      "expected_profit": 0.66,
-      "expected_roi": 3.3
-    },
     {
       "question": "Will Google have a #1 AI model by December 31, 2026?",
       "pick": "no",
@@ -96,6 +88,14 @@
       "belief": 0.796,
       "expected_profit": 0.276,
       "expected_roi": 0.530769
+    },
+    {
+      "question": "Will xAI have a #1 AI model by December 31, 2026?",
+      "pick": "no",
+      "market_price_paid": 0.545,
+      "belief": 0.791,
+      "expected_profit": 0.246,
+      "expected_roi": 0.451376
     }
   ]
 }

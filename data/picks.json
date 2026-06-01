@@ -1057,9 +1057,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 30% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-29T09:00:40.507762+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-01T05:00:05.116626+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2070253",
@@ -1176,9 +1176,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-29T19:00:14.516096+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-01T05:00:05.392047+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2098278",
@@ -1737,9 +1737,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 36% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-11T15:00:12.550705+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-01T05:00:07.377698+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2110753",
@@ -2179,9 +2179,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 80% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-28T17:00:18.928861+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-01T05:00:11.120823+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2303132",
@@ -2253,8 +2253,8 @@
     }
   ],
   "stats": {
-    "total": 86,
-    "correct": 32,
+    "total": 90,
+    "correct": 35,
     "pending": 64
   }
 }

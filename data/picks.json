@@ -2284,11 +2284,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2411904",
+      "question": "Will claude-opus-4-6-thinking have the best AI model on June 6, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.862,
+      "market_yes_price": 0.81,
+      "selected_side_price": 0.18999999999999995,
+      "expected_profit": 0.672,
+      "expected_roi": 3.536842105263159,
+      "edge": 0.672,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 81% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-02T05:00:16.092098+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2414235",
+      "question": "Will the next Google Gemini Pro model be released on June 6, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.16,
+      "market_yes_price": 0.06,
+      "selected_side_price": 0.06,
+      "expected_profit": 0.1,
+      "expected_roi": 1.6666666666666667,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-02T05:00:16.092283+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 93,
     "correct": 35,
-    "pending": 40
+    "pending": 42
   }
 }

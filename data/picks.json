@@ -2250,11 +2250,28 @@
       "status": "wrong",
       "resolved_at": "2026-06-01T15:00:09.981503+00:00",
       "final_yes_price": 0.0
+    },
+    {
+      "market_id": "653788",
+      "question": "OpenAI announces it has achieved AGI before 2027?",
+      "my_pick": "yes",
+      "my_confidence": 0.225,
+      "market_yes_price": 0.125,
+      "selected_side_price": 0.125,
+      "expected_profit": 0.1,
+      "expected_roi": 0.8,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 12% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-02T01:00:14.189833+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 93,
     "correct": 35,
-    "pending": 64
+    "pending": 39
   }
 }

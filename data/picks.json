@@ -2488,11 +2488,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2414225",
+      "question": "Will the next Google Gemini Pro model be released by June 5, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.1215,
+      "market_yes_price": 0.0215,
+      "selected_side_price": 0.0215,
+      "expected_profit": 0.1,
+      "expected_roi": 4.651162790697675,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-03T09:00:16.085571+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2268860",
+      "question": "Will GPT-5.6 be released between June 1 and June 7, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.165,
+      "market_yes_price": 0.065,
+      "selected_side_price": 0.065,
+      "expected_profit": 0.1,
+      "expected_roi": 1.5384615384615385,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-03T09:00:16.085760+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 93,
     "correct": 35,
-    "pending": 52
+    "pending": 54
   }
 }

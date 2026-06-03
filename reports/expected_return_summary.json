@@ -1,22 +1,30 @@
 {
-  "timestamp": "2026-06-03T05:00:17.990869+00:00",
-  "total_picks": 146,
-  "pending_count": 51,
+  "timestamp": "2026-06-03T07:00:17.184609+00:00",
+  "total_picks": 147,
+  "pending_count": 52,
   "resolved_count": 93,
   "win_rate": 0.3763440860215054,
-  "pending_expected_profit_total": 8.7254,
-  "pending_expected_profit_positive_only": 8.7254,
+  "pending_expected_profit_total": 9.4754,
+  "pending_expected_profit_positive_only": 9.4754,
   "realized_profit_total": 4.345,
-  "valid_strategy_pending_count": 51,
+  "valid_strategy_pending_count": 52,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
   "sim_realized_bankroll": 439.52,
-  "sim_pending_ev_dollars": 2434.11,
-  "sim_bankroll_plus_pending_ev": 2873.63,
+  "sim_pending_ev_dollars": 2565.97,
+  "sim_bankroll_plus_pending_ev": 3005.49,
   "sim_resolved_positions_count": 93,
   "top_pending_by_ev": [
+    {
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on June 5?",
+      "pick": "no",
+      "market_price_paid": 0.125,
+      "belief": 0.875,
+      "expected_profit": 0.75,
+      "expected_roi": 6.0
+    },
     {
       "question": "Will claude-opus-4-6-thinking have the best AI model on June 6, 2026?",
       "pick": "no",
@@ -88,14 +96,6 @@
       "belief": 0.797,
       "expected_profit": 0.282,
       "expected_roi": 0.547573
-    },
-    {
-      "question": "Will Alibaba have the best AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.52,
-      "belief": 0.796,
-      "expected_profit": 0.276,
-      "expected_roi": 0.530769
     }
   ]
 }

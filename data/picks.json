@@ -2573,11 +2573,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2364009",
+      "question": "Will Anthropic have the best Math AI model at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.76,
+      "market_yes_price": 0.3,
+      "selected_side_price": 0.7,
+      "expected_profit": 0.06000000000000005,
+      "expected_roi": 0.0857142857142858,
+      "edge": 0.06000000000000005,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 30% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-05T15:00:17.392847+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2431051",
+      "question": "Will Anthropic have the best Math AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.756,
+      "market_yes_price": 0.28,
+      "selected_side_price": 0.72,
+      "expected_profit": 0.03600000000000003,
+      "expected_roi": 0.050000000000000044,
+      "edge": 0.03600000000000003,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 28% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-05T15:00:17.393050+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 93,
     "correct": 35,
-    "pending": 57
+    "pending": 59
   }
 }

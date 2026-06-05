@@ -2607,6 +2607,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2431240",
+      "question": "Will Alibaba have the best Chinese AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.824,
+      "market_yes_price": 0.62,
+      "selected_side_price": 0.38,
+      "expected_profit": 0.44399999999999995,
+      "expected_roi": 1.1684210526315788,
+      "edge": 0.44399999999999995,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 62% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-05T23:00:16.086259+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

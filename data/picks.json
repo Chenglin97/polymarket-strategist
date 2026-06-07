@@ -2692,11 +2692,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2430327",
+      "question": "Will Anthropic have the best AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.86,
+      "market_yes_price": 0.8,
+      "selected_side_price": 0.19999999999999996,
+      "expected_profit": 0.66,
+      "expected_roi": 3.3000000000000007,
+      "edge": 0.66,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 80% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-07T13:00:25.490936+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 99,
     "correct": 35,
-    "pending": 58
+    "pending": 59
   }
 }

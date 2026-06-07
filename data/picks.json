@@ -2709,11 +2709,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2430440",
+      "question": "Will Google have the third best AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7819999999999999,
+      "market_yes_price": 0.41,
+      "selected_side_price": 0.5900000000000001,
+      "expected_profit": 0.19199999999999984,
+      "expected_roi": 0.325423728813559,
+      "edge": 0.19199999999999984,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 41% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-07T21:00:18.718542+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 99,
     "correct": 35,
-    "pending": 59
+    "pending": 60
   }
 }

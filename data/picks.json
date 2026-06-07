@@ -2675,6 +2675,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2431050",
+      "question": "Will Google have the best Math AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7569999999999999,
+      "market_yes_price": 0.285,
+      "selected_side_price": 0.7150000000000001,
+      "expected_profit": 0.041999999999999815,
+      "expected_roi": 0.058741258741258476,
+      "edge": 0.041999999999999815,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 28% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-07T11:00:18.090003+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

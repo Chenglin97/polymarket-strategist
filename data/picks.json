@@ -2777,11 +2777,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2431055",
+      "question": "Will Z.ai have the best Math AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7718999999999999,
+      "market_yes_price": 0.3595,
+      "selected_side_price": 0.6405000000000001,
+      "expected_profit": 0.13139999999999985,
+      "expected_roi": 0.20515222482435572,
+      "edge": 0.13139999999999985,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 36% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-09T19:00:15.347228+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 102,
     "correct": 35,
-    "pending": 60
+    "pending": 61
   }
 }

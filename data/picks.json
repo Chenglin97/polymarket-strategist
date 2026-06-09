@@ -2726,6 +2726,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2473267",
+      "question": "Will Claude Mythos be released on June 11?",
+      "my_pick": "yes",
+      "my_confidence": 0.14,
+      "market_yes_price": 0.04,
+      "selected_side_price": 0.04,
+      "expected_profit": 0.1,
+      "expected_roi": 2.5,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-09T05:00:19.605596+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

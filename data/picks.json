@@ -1414,9 +1414,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 18% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-04T01:00:12.225699+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-09T21:00:04.407152+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2109512",
@@ -2230,9 +2230,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 12% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-28T23:00:17.362576+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-09T21:00:08.846254+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2268859",
@@ -2740,9 +2740,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 4% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-09T05:00:19.605596+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-09T21:00:14.082385+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2473266",
@@ -2757,9 +2757,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-09T15:00:17.867550+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-09T21:00:14.335635+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2431058",
@@ -2794,11 +2794,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2446118",
+      "question": "Will any other model be the best AI model on June 13, 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.8150999999999999,
+      "market_yes_price": 0.5755,
+      "selected_side_price": 0.4245,
+      "expected_profit": 0.39059999999999995,
+      "expected_roi": 0.9201413427561836,
+      "edge": 0.39059999999999995,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 58% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-09T21:00:18.636556+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 102,
-    "correct": 35,
-    "pending": 61
+    "total": 106,
+    "correct": 37,
+    "pending": 58
   }
 }

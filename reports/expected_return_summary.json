@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-06-09T19:00:16.689266+00:00",
-  "total_picks": 165,
-  "pending_count": 61,
-  "resolved_count": 102,
-  "win_rate": 0.3431372549019608,
-  "pending_expected_profit_total": 10.6038,
-  "pending_expected_profit_positive_only": 10.6038,
-  "realized_profit_total": 3.363,
-  "valid_strategy_pending_count": 61,
+  "timestamp": "2026-06-09T21:00:19.956856+00:00",
+  "total_picks": 166,
+  "pending_count": 58,
+  "resolved_count": 106,
+  "win_rate": 0.3490566037735849,
+  "pending_expected_profit_total": 10.5424,
+  "pending_expected_profit_positive_only": 10.5424,
+  "realized_profit_total": 4.893,
+  "valid_strategy_pending_count": 58,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 277.01,
-  "sim_pending_ev_dollars": 2180.24,
-  "sim_bankroll_plus_pending_ev": 2457.25,
-  "sim_resolved_positions_count": 102,
+  "sim_realized_bankroll": 425.05,
+  "sim_pending_ev_dollars": 2593.61,
+  "sim_bankroll_plus_pending_ev": 3018.66,
+  "sim_resolved_positions_count": 106,
   "top_pending_by_ev": [
     {
       "question": "Will Anthropic have the best AI model at the end of July 2026?",
@@ -58,6 +58,14 @@
       "expected_roi": 1.022222
     },
     {
+      "question": "Will any other model be the best AI model on June 13, 2026?",
+      "pick": "no",
+      "market_price_paid": 0.4245,
+      "belief": 0.8151,
+      "expected_profit": 0.3906,
+      "expected_roi": 0.920141
+    },
+    {
       "question": "Will Anthropic have the third best AI model at the end of July 2026?",
       "pick": "no",
       "market_price_paid": 0.43,
@@ -88,14 +96,6 @@
       "belief": 0.7999,
       "expected_profit": 0.2994,
       "expected_roi": 0.598202
-    },
-    {
-      "question": "Will Mistral have the third best AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.5015,
-      "belief": 0.7997,
-      "expected_profit": 0.2982,
-      "expected_roi": 0.594616
     }
   ]
 }

@@ -2760,11 +2760,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2431058",
+      "question": "Will xAI have the best Math AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7775,
+      "market_yes_price": 0.3875,
+      "selected_side_price": 0.6125,
+      "expected_profit": 0.16499999999999992,
+      "expected_roi": 0.26938775510204066,
+      "edge": 0.16499999999999992,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 39% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-09T17:00:19.041965+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 102,
     "correct": 35,
-    "pending": 59
+    "pending": 60
   }
 }

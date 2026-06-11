@@ -2828,11 +2828,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2470404",
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on June 12?",
+      "my_pick": "no",
+      "my_confidence": 0.7629999999999999,
+      "market_yes_price": 0.315,
+      "selected_side_price": 0.685,
+      "expected_profit": 0.07799999999999985,
+      "expected_roi": 0.1138686131386859,
+      "edge": 0.07799999999999985,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-11T03:00:18.947246+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2430452",
+      "question": "Will Amazon have the third best AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7561,
+      "market_yes_price": 0.2805,
+      "selected_side_price": 0.7195,
+      "expected_profit": 0.036599999999999966,
+      "expected_roi": 0.050868658790826915,
+      "edge": 0.036599999999999966,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 28% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-11T03:00:18.947450+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 107,
     "correct": 37,
-    "pending": 58
+    "pending": 60
   }
 }

@@ -2879,11 +2879,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2473669",
+      "question": "Will Anthropic have the best AI Agent at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.838,
+      "market_yes_price": 0.69,
+      "selected_side_price": 0.31000000000000005,
+      "expected_profit": 0.5279999999999999,
+      "expected_roi": 1.7032258064516124,
+      "edge": 0.5279999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 69% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-12T21:00:19.272764+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 109,
     "correct": 38,
-    "pending": 61
+    "pending": 60
   }
 }

@@ -1,22 +1,30 @@
 {
-  "timestamp": "2026-06-13T19:00:19.060399+00:00",
-  "total_picks": 172,
-  "pending_count": 60,
-  "resolved_count": 110,
-  "win_rate": 0.34545454545454546,
-  "pending_expected_profit_total": 11.2382,
-  "pending_expected_profit_positive_only": 11.2382,
-  "realized_profit_total": 4.953,
-  "valid_strategy_pending_count": 60,
+  "timestamp": "2026-06-13T21:00:19.310017+00:00",
+  "total_picks": 173,
+  "pending_count": 59,
+  "resolved_count": 112,
+  "win_rate": 0.3482142857142857,
+  "pending_expected_profit_total": 11.3744,
+  "pending_expected_profit_positive_only": 11.3744,
+  "realized_profit_total": 4.9045,
+  "valid_strategy_pending_count": 59,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 372.81,
-  "sim_pending_ev_dollars": 2503.77,
-  "sim_bankroll_plus_pending_ev": 2876.58,
-  "sim_resolved_positions_count": 110,
+  "sim_realized_bankroll": 378.17,
+  "sim_pending_ev_dollars": 2552.79,
+  "sim_bankroll_plus_pending_ev": 2930.96,
+  "sim_resolved_positions_count": 112,
   "top_pending_by_ev": [
+    {
+      "question": "Will Anthropic have the #1 AI model at the end of July 2026?",
+      "pick": "no",
+      "market_price_paid": 0.185,
+      "belief": 0.863,
+      "expected_profit": 0.678,
+      "expected_roi": 3.664865
+    },
     {
       "question": "Will Anthropic have the best AI model at the end of July 2026?",
       "pick": "no",
@@ -64,14 +72,6 @@
       "belief": 0.819,
       "expected_profit": 0.414,
       "expected_roi": 1.022222
-    },
-    {
-      "question": "Will any other model be the best AI model on June 13, 2026?",
-      "pick": "no",
-      "market_price_paid": 0.4245,
-      "belief": 0.8151,
-      "expected_profit": 0.3906,
-      "expected_roi": 0.920141
     },
     {
       "question": "Will Anthropic have the third best AI model at the end of July 2026?",

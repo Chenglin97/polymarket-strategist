@@ -2808,9 +2808,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 58% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-09T21:00:18.636556+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-13T21:00:13.422407+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2446113",
@@ -2825,9 +2825,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 38% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-10T09:00:19.460127+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-13T21:00:13.638579+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2470404",
@@ -2913,11 +2913,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2430746",
+      "question": "Will Anthropic have the #1 AI model at the end of July 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.863,
+      "market_yes_price": 0.815,
+      "selected_side_price": 0.18500000000000005,
+      "expected_profit": 0.6779999999999999,
+      "expected_roi": 3.6648648648648634,
+      "edge": 0.6779999999999999,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 82% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-13T21:00:17.966627+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 110,
-    "correct": 38,
-    "pending": 61
+    "total": 112,
+    "correct": 39,
+    "pending": 59
   }
 }

@@ -2930,11 +2930,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2473672",
+      "question": "Will OpenAI have the best AI Agent at the end of June 2026?",
+      "my_pick": "no",
+      "my_confidence": 0.7649999999999999,
+      "market_yes_price": 0.325,
+      "selected_side_price": 0.675,
+      "expected_profit": 0.08999999999999986,
+      "expected_roi": 0.1333333333333331,
+      "edge": 0.08999999999999986,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-14T01:00:18.934303+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 112,
     "correct": 39,
-    "pending": 59
+    "pending": 60
   }
 }

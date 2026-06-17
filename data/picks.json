@@ -2964,11 +2964,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2487204",
+      "question": "Next Mythos-Class Model released by July 31, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.387,
+      "market_yes_price": 0.215,
+      "selected_side_price": 0.215,
+      "expected_profit": 0.17200000000000001,
+      "expected_roi": 0.8,
+      "edge": 0.17200000000000001,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 22% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-17T21:00:20.196164+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 115,
     "correct": 39,
-    "pending": 58
+    "pending": 59
   }
 }

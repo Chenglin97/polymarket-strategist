@@ -2981,11 +2981,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2589813",
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "my_pick": "no",
+      "my_confidence": 0.96,
+      "market_yes_price": 0.245,
+      "selected_side_price": 0.755,
+      "expected_profit": 0.20499999999999996,
+      "expected_roi": 0.27152317880794696,
+      "edge": 0.20499999999999996,
+      "reasoning": "Fed hiking 25bps is very unlikely - they are in pause/cut mode.",
+      "category": "macro",
+      "picked_at": "2026-06-19T01:00:19.256322+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 115,
     "correct": 39,
-    "pending": 59
+    "pending": 60
   }
 }

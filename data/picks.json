@@ -3032,6 +3032,23 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2609548",
+      "question": "Will ChatGPT be #1 Free App in the US Apple App Store on June 26?",
+      "my_pick": "no",
+      "my_confidence": 0.8119999999999999,
+      "market_yes_price": 0.56,
+      "selected_side_price": 0.43999999999999995,
+      "expected_profit": 0.372,
+      "expected_roi": 0.8454545454545456,
+      "edge": 0.372,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 56% still looks too optimistic versus how quickly rankings shift.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-22T11:00:18.227053+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {

@@ -3083,11 +3083,62 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2649058",
+      "question": "Will GPT-5.6 be released on June 29, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.35100000000000003,
+      "market_yes_price": 0.195,
+      "selected_side_price": 0.195,
+      "expected_profit": 0.15600000000000003,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.15600000000000003,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 20% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-23T17:00:26.131265+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2649049",
+      "question": "Will GPT-5.6 be released on June 25, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.24300000000000002,
+      "market_yes_price": 0.135,
+      "selected_side_price": 0.135,
+      "expected_profit": 0.10800000000000001,
+      "expected_roi": 0.8,
+      "edge": 0.10800000000000001,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-23T17:00:26.131471+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2649093",
+      "question": "Will GPT-5.6 not be released before August 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.19,
+      "market_yes_price": 0.09,
+      "selected_side_price": 0.09,
+      "expected_profit": 0.1,
+      "expected_roi": 1.1111111111111112,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 9% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-23T17:00:26.131561+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 119,
     "correct": 39,
-    "pending": 61
+    "pending": 64
   }
 }

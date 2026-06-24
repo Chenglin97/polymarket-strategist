@@ -3168,11 +3168,45 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2648798",
+      "question": "GPT-5.6 released by July 3, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.261,
+      "market_yes_price": 0.145,
+      "selected_side_price": 0.145,
+      "expected_profit": 0.11600000000000002,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.11600000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-24T23:00:20.083736+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
+    },
+    {
+      "market_id": "2649072",
+      "question": "Will GPT-5.6 be released on July 11, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.17,
+      "market_yes_price": 0.07,
+      "selected_side_price": 0.07,
+      "expected_profit": 0.1,
+      "expected_roi": 1.4285714285714286,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 7% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-24T23:00:20.083974+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 120,
     "correct": 39,
-    "pending": 65
+    "pending": 67
   }
 }

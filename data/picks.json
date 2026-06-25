@@ -3338,11 +3338,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2649067",
+      "question": "Will GPT-5.6 be released on July 8, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.24300000000000002,
+      "market_yes_price": 0.135,
+      "selected_side_price": 0.135,
+      "expected_profit": 0.10800000000000001,
+      "expected_roi": 0.8,
+      "edge": 0.10800000000000001,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 14% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-25T19:00:22.349970+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 120,
     "correct": 39,
-    "pending": 75
+    "pending": 76
   }
 }

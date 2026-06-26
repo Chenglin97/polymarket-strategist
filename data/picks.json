@@ -3046,9 +3046,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 56% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-22T11:00:18.227053+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-26T19:00:14.233013+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2649059",
@@ -3406,11 +3406,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2649065",
+      "question": "Will GPT-5.6 be released on July 6, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.14600000000000002,
+      "market_yes_price": 0.046,
+      "selected_side_price": 0.046,
+      "expected_profit": 0.10000000000000002,
+      "expected_roi": 2.173913043478261,
+      "edge": 0.10000000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 5% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-26T19:00:22.368369+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 121,
-    "correct": 39,
+    "total": 122,
+    "correct": 40,
     "pending": 78
   }
 }

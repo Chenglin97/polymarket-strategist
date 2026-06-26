@@ -3372,11 +3372,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "973716",
+      "question": "Meta \"Mango\" model released by June 30?",
+      "my_pick": "yes",
+      "my_confidence": 0.279,
+      "market_yes_price": 0.155,
+      "selected_side_price": 0.155,
+      "expected_profit": 0.12400000000000003,
+      "expected_roi": 0.8000000000000002,
+      "edge": 0.12400000000000003,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 16% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-26T01:00:21.766802+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 120,
     "correct": 39,
-    "pending": 77
+    "pending": 78
   }
 }

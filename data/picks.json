@@ -1992,9 +1992,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 21% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-22T21:00:16.190225+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-29T07:00:06.998423+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2333094",
@@ -2281,9 +2281,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 3% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-02T03:00:14.352860+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-29T07:00:08.788442+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2411904",
@@ -3029,9 +3029,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 22% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-21T01:00:18.480853+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-29T07:00:13.349885+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2609548",
@@ -3511,8 +3511,8 @@
     }
   ],
   "stats": {
-    "total": 124,
-    "correct": 40,
+    "total": 127,
+    "correct": 41,
     "pending": 81
   }
 }

@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-06-30T19:00:24.452425+00:00",
+  "timestamp": "2026-06-30T21:00:21.164447+00:00",
   "total_picks": 209,
-  "pending_count": 63,
-  "resolved_count": 144,
-  "win_rate": 0.3611111111111111,
-  "pending_expected_profit_total": 11.0982,
-  "pending_expected_profit_positive_only": 11.0982,
-  "realized_profit_total": 7.323,
-  "valid_strategy_pending_count": 63,
+  "pending_count": 60,
+  "resolved_count": 147,
+  "win_rate": 0.36054421768707484,
+  "pending_expected_profit_total": 10.2492,
+  "pending_expected_profit_positive_only": 10.2492,
+  "realized_profit_total": 6.7805,
+  "valid_strategy_pending_count": 60,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 262.41,
-  "sim_pending_ev_dollars": 2744.23,
-  "sim_bankroll_plus_pending_ev": 3006.64,
-  "sim_resolved_positions_count": 144,
+  "sim_realized_bankroll": 241.54,
+  "sim_pending_ev_dollars": 2318.58,
+  "sim_bankroll_plus_pending_ev": 2560.13,
+  "sim_resolved_positions_count": 147,
   "top_pending_by_ev": [
     {
       "question": "Will Anthropic have the best Coding AI model at the end of July 2026?",
@@ -58,14 +58,6 @@
       "expected_roi": 1.447059
     },
     {
-      "question": "Will Anthropic have the best AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.3425,
-      "belief": 0.8315,
-      "expected_profit": 0.489,
-      "expected_roi": 1.427737
-    },
-    {
       "question": "Will Alibaba have the best Chinese AI model at the end of July 2026?",
       "pick": "no",
       "market_price_paid": 0.38,
@@ -90,12 +82,20 @@
       "expected_roi": 0.845455
     },
     {
-      "question": "Will Anthropic have the second best AI model at the end of June 2026?",
+      "question": "Will xAI have a #1 AI model by December 31, 2026?",
       "pick": "no",
-      "market_price_paid": 0.485,
-      "belief": 0.803,
-      "expected_profit": 0.318,
-      "expected_roi": 0.65567
+      "market_price_paid": 0.545,
+      "belief": 0.791,
+      "expected_profit": 0.246,
+      "expected_roi": 0.451376
+    },
+    {
+      "question": "Will the Fed increase interest rates by 25 bps after the October 2026 meeting?",
+      "pick": "no",
+      "market_price_paid": 0.755,
+      "belief": 0.96,
+      "expected_profit": 0.205,
+      "expected_roi": 0.271523
     }
   ]
 }

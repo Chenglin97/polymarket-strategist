@@ -3525,11 +3525,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2727292",
+      "question": "Counter-Strike: BESTIA Academy vs MAGICOS (BO3) - CCT South America Series 3 Group Stage",
+      "my_pick": "no",
+      "my_confidence": 0.832,
+      "market_yes_price": 0.66,
+      "selected_side_price": 0.33999999999999997,
+      "expected_profit": 0.492,
+      "expected_roi": 1.447058823529412,
+      "edge": 0.492,
+      "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 66% still looks too optimistic versus how quickly rankings shift.",
+      "category": "macro",
+      "picked_at": "2026-06-30T03:00:22.474563+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 127,
     "correct": 41,
-    "pending": 79
+    "pending": 80
   }
 }

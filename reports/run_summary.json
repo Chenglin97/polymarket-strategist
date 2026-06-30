@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-30T17:00:23.797250+00:00",
+  "timestamp": "2026-06-30T19:00:25.787325+00:00",
   "new_picks_this_run": 0,
-  "resolved_this_run": 0,
+  "resolved_this_run": 15,
   "total_picks": 209,
-  "pending_count": 78,
-  "resolved_count": 129
+  "pending_count": 63,
+  "resolved_count": 144
 }

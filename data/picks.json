@@ -836,9 +836,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 48% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T11:00:08.167324+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:03.631557+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1974462",
@@ -853,9 +853,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 50% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.080944+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:03.909789+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1974464",
@@ -870,9 +870,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 50% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081070+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:04.195049+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1974459",
@@ -887,9 +887,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 49% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-04-28T13:00:08.081107+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:04.266685+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "1664345",
@@ -1788,9 +1788,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 60% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-14T07:00:16.908481+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-30T19:00:06.758854+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2252245",
@@ -2026,9 +2026,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 31% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-23T07:00:16.424521+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:07.185850+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2316354",
@@ -2077,9 +2077,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 48% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-27T07:01:21.139961+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-30T19:00:07.427676+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2363950",
@@ -2094,9 +2094,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 42% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-27T07:01:21.140159+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:07.713033+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2363958",
@@ -2111,9 +2111,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 40% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-27T07:01:21.140236+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:07.966720+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2363953",
@@ -2128,9 +2128,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 35% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-27T07:01:21.140307+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:08.221813+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2363952",
@@ -2145,9 +2145,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-05-27T07:01:21.140410+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:08.494591+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "920846",
@@ -2587,9 +2587,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 30% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-05T15:00:17.392847+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:09.411887+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2431051",
@@ -2893,9 +2893,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 69% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-12T21:00:19.272764+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-30T19:00:12.152611+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2498739",
@@ -2944,9 +2944,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 32% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-14T01:00:18.934303+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-06-30T19:00:12.933965+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2364306",
@@ -2961,9 +2961,9 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 71% still looks too optimistic versus how quickly rankings shift.",
       "category": "tech/ai",
       "picked_at": "2026-06-17T13:00:18.797008+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-06-30T19:00:13.157659+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2487204",
@@ -3545,8 +3545,8 @@
     }
   ],
   "stats": {
-    "total": 129,
-    "correct": 41,
+    "total": 144,
+    "correct": 52,
     "pending": 80
   }
 }

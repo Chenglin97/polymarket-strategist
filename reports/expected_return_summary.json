@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-06-30T17:00:22.463149+00:00",
+  "timestamp": "2026-06-30T19:00:24.452425+00:00",
   "total_picks": 209,
-  "pending_count": 78,
-  "resolved_count": 129,
-  "win_rate": 0.3178294573643411,
-  "pending_expected_profit_total": 14.8362,
-  "pending_expected_profit_positive_only": 14.8362,
-  "realized_profit_total": 4.458,
-  "valid_strategy_pending_count": 78,
+  "pending_count": 63,
+  "resolved_count": 144,
+  "win_rate": 0.3611111111111111,
+  "pending_expected_profit_total": 11.0982,
+  "pending_expected_profit_positive_only": 11.0982,
+  "realized_profit_total": 7.323,
+  "valid_strategy_pending_count": 63,
   "invalid_strategy_pending_count": 0,
   "legacy_invalid_count": 2,
   "sim_starting_bankroll": 1000.0,
   "sim_stake_fraction": 0.05,
-  "sim_realized_bankroll": 221.41,
-  "sim_pending_ev_dollars": 2636.68,
-  "sim_bankroll_plus_pending_ev": 2858.08,
-  "sim_resolved_positions_count": 129,
+  "sim_realized_bankroll": 262.41,
+  "sim_pending_ev_dollars": 2744.23,
+  "sim_bankroll_plus_pending_ev": 3006.64,
+  "sim_resolved_positions_count": 144,
   "top_pending_by_ev": [
     {
       "question": "Will Anthropic have the best Coding AI model at the end of July 2026?",
@@ -50,22 +50,6 @@
       "expected_roi": 2.473469
     },
     {
-      "question": "Will Anthropic have the second best Coding AI model at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.292,
-      "belief": 0.8416,
-      "expected_profit": 0.5496,
-      "expected_roi": 1.882192
-    },
-    {
-      "question": "Will Anthropic have the best AI Agent at the end of June 2026?",
-      "pick": "no",
-      "market_price_paid": 0.31,
-      "belief": 0.838,
-      "expected_profit": 0.528,
-      "expected_roi": 1.703226
-    },
-    {
       "question": "Counter-Strike: BESTIA Academy vs MAGICOS (BO3) - CCT South America Series 3 Group Stage",
       "pick": "no",
       "market_price_paid": 0.34,
@@ -90,12 +74,28 @@
       "expected_roi": 1.168421
     },
     {
-      "question": "Will Anthropic have the third best AI model at the end of June 2026?",
+      "question": "Will Anthropic have the third best AI model at the end of July 2026?",
       "pick": "no",
-      "market_price_paid": 0.405,
-      "belief": 0.819,
-      "expected_profit": 0.414,
-      "expected_roi": 1.022222
+      "market_price_paid": 0.43,
+      "belief": 0.814,
+      "expected_profit": 0.384,
+      "expected_roi": 0.893023
+    },
+    {
+      "question": "Will Anthropic have the best AI model at the end of December 2026?",
+      "pick": "no",
+      "market_price_paid": 0.44,
+      "belief": 0.812,
+      "expected_profit": 0.372,
+      "expected_roi": 0.845455
+    },
+    {
+      "question": "Will Anthropic have the second best AI model at the end of June 2026?",
+      "pick": "no",
+      "market_price_paid": 0.485,
+      "belief": 0.803,
+      "expected_profit": 0.318,
+      "expected_roi": 0.65567
     }
   ]
 }

@@ -3539,14 +3539,31 @@
       "reasoning": "Leadership claims in AI are fragile and crowded. Market YES at 66% still looks too optimistic versus how quickly rankings shift.",
       "category": "macro",
       "picked_at": "2026-06-30T03:00:22.474563+00:00",
+      "status": "wrong",
+      "resolved_at": "2026-06-30T23:00:15.847278+00:00",
+      "final_yes_price": 1.0
+    },
+    {
+      "market_id": "2698660",
+      "question": "Will the next Google Gemini Pro model be released by July 3, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.15000000000000002,
+      "market_yes_price": 0.05,
+      "selected_side_price": 0.05,
+      "expected_profit": 0.10000000000000002,
+      "expected_roi": 2.0000000000000004,
+      "edge": 0.10000000000000002,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 5% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-06-30T23:00:19.819935+00:00",
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
     }
   ],
   "stats": {
-    "total": 147,
+    "total": 148,
     "correct": 53,
-    "pending": 80
+    "pending": 60
   }
 }

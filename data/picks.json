@@ -1907,9 +1907,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-05-18T19:00:19.328970+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-07-01T07:00:06.714522+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2268858",
@@ -2468,9 +2468,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 6% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-02T23:00:14.680744+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-07-01T07:00:07.123996+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2410307",
@@ -2536,9 +2536,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 20% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-03T15:00:17.451132+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "correct",
+      "resolved_at": "2026-07-01T07:00:07.245975+00:00",
+      "final_yes_price": 1.0
     },
     {
       "market_id": "2268845",
@@ -3063,9 +3063,9 @@
       "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 10% looks a bit too low.",
       "category": "tech/ai",
       "picked_at": "2026-06-23T11:00:17.516830+00:00",
-      "status": "pending",
-      "resolved_at": null,
-      "final_yes_price": null
+      "status": "wrong",
+      "resolved_at": "2026-07-01T07:00:10.925084+00:00",
+      "final_yes_price": 0.0
     },
     {
       "market_id": "2649063",
@@ -3562,8 +3562,8 @@
     }
   ],
   "stats": {
-    "total": 148,
-    "correct": 53,
+    "total": 152,
+    "correct": 54,
     "pending": 60
   }
 }

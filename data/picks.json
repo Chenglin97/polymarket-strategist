@@ -3559,11 +3559,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "679894",
+      "question": "Will xAI release a dLLM by June 30?",
+      "my_pick": "yes",
+      "my_confidence": 0.124,
+      "market_yes_price": 0.024,
+      "selected_side_price": 0.024,
+      "expected_profit": 0.1,
+      "expected_roi": 4.166666666666667,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 2% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-07-01T19:00:17.543998+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 153,
     "correct": 54,
-    "pending": 60
+    "pending": 56
   }
 }

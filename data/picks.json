@@ -3576,11 +3576,28 @@
       "status": "pending",
       "resolved_at": null,
       "final_yes_price": null
+    },
+    {
+      "market_id": "2698776",
+      "question": "Will there be no next Google Gemini Pro model release by July 31, 2026?",
+      "my_pick": "yes",
+      "my_confidence": 0.19,
+      "market_yes_price": 0.09,
+      "selected_side_price": 0.09,
+      "expected_profit": 0.1,
+      "expected_roi": 1.1111111111111112,
+      "edge": 0.1,
+      "reasoning": "Launch markets are often underpriced when frontier labs are shipping fast. Market YES at 9% looks a bit too low.",
+      "category": "tech/ai",
+      "picked_at": "2026-07-01T21:00:18.589503+00:00",
+      "status": "pending",
+      "resolved_at": null,
+      "final_yes_price": null
     }
   ],
   "stats": {
     "total": 153,
     "correct": 54,
-    "pending": 56
+    "pending": 57
   }
 }
